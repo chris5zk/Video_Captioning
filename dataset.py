@@ -3,16 +3,20 @@
 Created on Mon May  8 16:20:57 2023
 @title:  VC dataset
 @author: chrischris
-Read the videos(?):
-    - define a CustomDataset (__init__, __getitem__: random choose one caption from dict each iter only)
-    - use DataLoader to load data into model
-    - how to load video using dataloader??????
 """
 
 import json
 import random
+from tqdm import tqdm
+from decord import VideoReader
+from torch.utils.data import DataLoader, Dataset
 
-class MyDataset:
+def my_collate_fn(batch):
+    vid = [item[0] for item in batch]
+    label = [item[1] for item in batch]
+    return vid, label
+
+class MyDataset(Dataset):
     def __init__(self, cfg, annotation_dict, video_name_list, voc):
         self.cfg = cfg
         self.annotation_dict = annotation_dict
@@ -22,7 +26,7 @@ class MyDataset:
     def __len__(self):
         return len(self.video_name_list)
     
-    def __getitem____(self, idx):
+    def __getitem__(self, idx):
         anno = random.choice(self.annotation_dict[self.video_name_list[idx]])
         anno_idx = []
         for word in anno.split(' '):
@@ -32,7 +36,10 @@ class MyDataset:
                 pass
         anno_idx = anno_idx + [self.cfg.EOS_token]
     
-        return anno_idx, self.video_name_list[idx]
+        vid = VideoReader(self.cfg.vid_root + self.video_name_list[idx] + '.mp4')
+    
+        return vid, anno_idx
+
 
 class DataHandler:
     def __init__(self, cfg, voc):
@@ -83,17 +90,26 @@ class DataHandler:
         
         return train_dataset, val_dataset, test_dataset
     
-    
-    def getDataloader(self):
-        pass
+    def getDataloader(self, train_dst, val_dst, test_dst):
+        train_loader = DataLoader(train_dst, batch_size=self.cfg.batch_size, num_workers=self.cfg.num_workers, shuffle=True, collate_fn=my_collate_fn)
+        val_loader = DataLoader(val_dst, batch_size=self.cfg.batch_size, num_workers=self.cfg.num_workers, shuffle=False, collate_fn=my_collate_fn)
+        test_loader = DataLoader(test_dst, batch_size=self.cfg.batch_size, num_workers=self.cfg.num_workers, shuffle=False, collate_fn=my_collate_fn)
+
+        return train_loader, val_loader, test_loader    
 
 
 if __name__ == '__main__':
     
     from config import MyConfig
     from voc import Vocabulary
-    
+
     cfg = MyConfig()
     voc = Vocabulary(cfg)
+    voc.load()
     data_handler = DataHandler(cfg, voc)
-
+    train_dst, val_dst, test_dst = data_handler.getDatasets()
+    train_loader, val_loader, test_loader = data_handler.getDataloader(train_dst, val_dst, test_dst)
+    
+    for batch in tqdm(test_loader):
+        vid, label = batch
+        
