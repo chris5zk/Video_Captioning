@@ -11,10 +11,10 @@ from tqdm import tqdm
 from decord import VideoReader
 from torch.utils.data import DataLoader, Dataset
 
+
 def my_collate_fn(batch):
-    vid = [item[0] for item in batch]
-    label = [item[1] for item in batch]
-    return vid, label
+    return batch[0][0], batch[0][1]
+
 
 class MyDataset(Dataset):
     def __init__(self, cfg, annotation_dict, video_name_list, voc):
@@ -37,7 +37,7 @@ class MyDataset(Dataset):
         anno_idx = anno_idx + [self.cfg.EOS_token]
     
         vid = VideoReader(self.cfg.vid_root + self.video_name_list[idx] + '.mp4')
-    
+
         return vid, anno_idx
 
 
@@ -91,9 +91,12 @@ class DataHandler:
         return train_dataset, val_dataset, test_dataset
     
     def getDataloader(self, train_dst, val_dst, test_dst):
-        train_loader = DataLoader(train_dst, batch_size=self.cfg.batch_size, num_workers=self.cfg.num_workers, shuffle=True, collate_fn=my_collate_fn)
-        val_loader = DataLoader(val_dst, batch_size=self.cfg.batch_size, num_workers=self.cfg.num_workers, shuffle=False, collate_fn=my_collate_fn)
-        test_loader = DataLoader(test_dst, batch_size=self.cfg.batch_size, num_workers=self.cfg.num_workers, shuffle=False, collate_fn=my_collate_fn)
+        if train_dst:
+            train_loader = DataLoader(train_dst, batch_size=1, num_workers=self.cfg.num_workers, shuffle=True, collate_fn=my_collate_fn)
+        if val_dst:
+            val_loader = DataLoader(val_dst, batch_size=1, num_workers=self.cfg.num_workers, shuffle=False, collate_fn=my_collate_fn)
+        if test_dst:
+            test_loader = DataLoader(test_dst, batch_size=1, num_workers=self.cfg.num_workers, shuffle=False, collate_fn=my_collate_fn)
 
         return train_loader, val_loader, test_loader    
 
@@ -112,4 +115,3 @@ if __name__ == '__main__':
     
     for batch in tqdm(test_loader):
         vid, label = batch
-        

@@ -5,6 +5,7 @@ Created on Mon May  8 17:30:22 2023
 @author: chrischris
 """
 
+
 class MyConfig:
     def __init__(self):
         # path
@@ -21,7 +22,11 @@ class MyConfig:
         self.encode_num_start = 4
         
         # data
-        self.batch_size = 4
+        self.input_size = None
+        self.chunk_size = 5
+        
+        
+        # train
         self.num_workers = 0
-        
-        
+        self.epoch = 5
+        self.lr = 0.01
