@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon May  8 16:20:57 2023
-@title:  VC dataset
-@author: chrischris
+@title:  Video Captioning dataset
 """
 
 import json
@@ -101,17 +100,17 @@ class DataHandler:
         return train_loader, val_loader, test_loader    
 
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
     
-    from config import MyConfig
-    from voc import Vocabulary
+#     from config import MyConfig
+#     from voc import Vocabulary
 
-    cfg = MyConfig()
-    voc = Vocabulary(cfg)
-    voc.load()
-    data_handler = DataHandler(cfg, voc)
-    train_dst, val_dst, test_dst = data_handler.getDatasets()
-    train_loader, val_loader, test_loader = data_handler.getDataloader(train_dst, val_dst, test_dst)
+#     cfg = MyConfig()
+#     voc = Vocabulary(cfg)
+#     voc.load()
+#     data_handler = DataHandler(cfg, voc)
+#     train_dst, val_dst, test_dst = data_handler.getDatasets()
+#     train_loader, val_loader, test_loader = data_handler.getDataloader(train_dst, val_dst, test_dst)
     
-    for batch in tqdm(test_loader):
-        vid, label = batch
+#     for batch in tqdm(test_loader):
+#         vid, label = batch

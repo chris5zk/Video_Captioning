@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat May 20 01:22:17 2023
+@title: model - EfficientNet-b0
+"""
+
 import torch
 import torch.nn as nn
 import torchvision.models as models

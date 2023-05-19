@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon May  8 16:20:57 2023
-
-@author: chrischris
+@title : Vocabulary build
 """
 
 import os
@@ -68,21 +67,21 @@ class Vocabulary:
             print('File loading error.. check the path or filename is correct')
 
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
     
-    from dataset import DataHandler
-    from config import MyConfig
+#     from dataset import DataHandler
+#     from config import MyConfig
 
-    cfg = MyConfig()
-    voc = Vocabulary(cfg)
-    text_dict = {}
-    data_handler = DataHandler(cfg, voc)
+#     cfg = MyConfig()
+#     voc = Vocabulary(cfg)
+#     text_dict = {}
+#     data_handler = DataHandler(cfg, voc)
     
-    text_dict.update(data_handler.train_dict)
-    text_dict.update(data_handler.val_dict)
-    text_dict.update(data_handler.test_dict)
+#     text_dict.update(data_handler.train_dict)
+#     text_dict.update(data_handler.val_dict)
+#     text_dict.update(data_handler.test_dict)
     
-    for k,v in text_dict.items():
-        for anno in v:
-            voc.addSentence(anno)
-    voc.save()
+#     for k,v in text_dict.items():
+#         for anno in v:
+#             voc.addSentence(anno)
+#     voc.save()
