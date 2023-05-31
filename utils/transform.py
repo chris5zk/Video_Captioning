@@ -5,9 +5,10 @@ Created on Sat May 20 01:25:07 2023
 """
 
 from torchvision.transforms import (Compose, RandomRotation, Resize, RandomCrop,
-                                    ColorJitter, ToTensor, Normalize)
+                                    ColorJitter, ToTensor, Normalize, ToPILImage)
 
 train_transform = Compose([
+        ToPILImage(),
         RandomRotation(30),
         Resize(256),
         RandomCrop((224, 224)),

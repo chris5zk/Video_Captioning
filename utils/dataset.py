@@ -6,7 +6,7 @@ Created on Mon May  8 16:20:57 2023
 
 import json
 import random
-from tqdm import tqdm
+
 from decord import VideoReader
 from torch.utils.data import DataLoader, Dataset
 
@@ -54,13 +54,14 @@ class DataHandler:
         train_val_file = json.load(open(self.cfg.train_val_annotation_file))
         test_file = json.load(open(self.cfg.test_annotation_file))
         train_dict, val_dict, test_dict = {}, {}, {}
+        
         train_id_list = list(range(0, 6513))
         val_id_list = list(range(6513, 7010))
         test_id_list = list(range(7010, 10000))
 
         for data in train_val_file['sentences']:
             # training data caption
-            if int(data['video_id'][5:]) in train_id_list:
+            if int(data['video_id'][5:]) in train_id_list and len(data['caption'].split(' ')) <= self.cfg.length:
                 if data['video_id'] in list(train_dict.keys()):
                     train_dict[data['video_id']] += [data['caption']]
                 else:
@@ -74,7 +75,7 @@ class DataHandler:
 
         for data in test_file['sentences']:
             # testing data caption
-            if int(data['video_id'][5:]) in test_id_list:
+            if int(data['video_id'][5:]) in test_id_list and len(data['caption'].split(' ')) <= self.cfg.length:
                 if data['video_id'] in list(test_dict.keys()):
                     test_dict[data['video_id']] += [data['caption']]
                 else:
@@ -100,17 +101,23 @@ class DataHandler:
         return train_loader, val_loader, test_loader    
 
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
     
-#     from config import MyConfig
-#     from voc import Vocabulary
+    from tqdm import tqdm
+    from config import MyConfig
+    from voc import Vocabulary
 
-#     cfg = MyConfig()
-#     voc = Vocabulary(cfg)
-#     voc.load()
-#     data_handler = DataHandler(cfg, voc)
-#     train_dst, val_dst, test_dst = data_handler.getDatasets()
-#     train_loader, val_loader, test_loader = data_handler.getDataloader(train_dst, val_dst, test_dst)
+    cfg = MyConfig()
+    cfg.train_val_annotation_file = '../dataset/msrvtt/train_val_videodatainfo.json'
+    cfg.test_annotation_file = '../dataset/msrvtt/test_videodatainfo.json'
+    cfg.vid_root = '../dataset/msrvtt/videos/'
+    cfg.voc = '../vocabulary'
     
-#     for batch in tqdm(test_loader):
-#         vid, label = batch
+    voc = Vocabulary(cfg)
+    voc.load()
+    data_handler = DataHandler(cfg, voc)
+    train_dst, val_dst, test_dst = data_handler.getDatasets()
+    train_loader, val_loader, test_loader = data_handler.getDataloader(train_dst, val_dst, test_dst)
+    
+    for batch in tqdm(test_loader):
+        vid, label = batch

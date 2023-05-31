@@ -23,7 +23,7 @@ class EfficientNetEc(nn.Module):
 if __name__ == '__main__':
 
     input_size = 360
-    input_image = torch.randn(1, 3, input_size, input_size)
+    input_image = torch.randn(60, 3, input_size, input_size)
 
     model = EfficientNetEc()
     features = model(input_image)
