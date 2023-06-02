@@ -32,12 +32,17 @@ class MyDataset(Dataset):
             try:
                 anno_idx.append(self.voc.word2index[word])
             except:
-                pass
-        anno_idx = anno_idx + [self.cfg.EOS_token]
-    
+                anno_idx.append(self.cfg.UNK_token)
+
+        anno_idx = [self.cfg.SOS_token] + anno_idx + [self.cfg.EOS_token]
+
+        for i in range(len(anno_idx), self.cfg.length):
+            anno_idx.append(self.cfg.EOS_token)
+
+        cap_mask = [[1.0] * len(anno_idx) + [0.0] * (self.cfg.length - len(anno_idx))]
         vid = VideoReader(self.cfg.vid_root + self.video_name_list[idx] + '.mp4')
 
-        return vid, anno_idx
+        return vid, (anno_idx, cap_mask)
 
 
 class DataHandler:
@@ -61,7 +66,7 @@ class DataHandler:
 
         for data in train_val_file['sentences']:
             # training data caption
-            if int(data['video_id'][5:]) in train_id_list and len(data['caption'].split(' ')) <= self.cfg.length:
+            if int(data['video_id'][5:]) in train_id_list and len(data['caption'].split(' ')) <= self.cfg.length-2:
                 if data['video_id'] in list(train_dict.keys()):
                     train_dict[data['video_id']] += [data['caption']]
                 else:
@@ -75,7 +80,7 @@ class DataHandler:
 
         for data in test_file['sentences']:
             # testing data caption
-            if int(data['video_id'][5:]) in test_id_list and len(data['caption'].split(' ')) <= self.cfg.length:
+            if int(data['video_id'][5:]) in test_id_list and len(data['caption'].split(' ')) <= self.cfg.length-2:
                 if data['video_id'] in list(test_dict.keys()):
                     test_dict[data['video_id']] += [data['caption']]
                 else:
@@ -98,7 +103,7 @@ class DataHandler:
         if test_dst:
             test_loader = DataLoader(test_dst, batch_size=1, num_workers=self.cfg.num_workers, shuffle=False, collate_fn=my_collate_fn)
 
-        return train_loader, val_loader, test_loader    
+        return train_loader, val_loader, test_loader
 
 
 if __name__ == '__main__':

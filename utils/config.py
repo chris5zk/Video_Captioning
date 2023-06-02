@@ -14,7 +14,12 @@ class MyConfig:
         self.vid_root = './dataset/msrvtt/videos/'
         self.train_val_annotation_file = './dataset/msrvtt/train_val_videodatainfo.json'
         self.test_annotation_file = './dataset/msrvtt/test_videodatainfo.json'  
-        
+        self.weight_root = './pretrained/weight/'
+        self.weight_file = ''
+        self.ckpt_root = './pretrained/checkpoint/'
+        self.ckpt_file = '20230602-152635_epoch_1_iter_0.ckpt'
+        self.log_root = './logs/'
+
         # vocabulary
         self.PAD_token = 0
         self.SOS_token = 1
@@ -29,9 +34,10 @@ class MyConfig:
         self.min_count = 1
         
         # train
+        self.use_ckpt = False
         self.num_workers = 0
         self.epoch = 5
-        self.lr = 0.01
+        self.lr = 0.0001
         
         # S2VT model
         self.dropout = 0.5

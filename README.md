@@ -13,10 +13,20 @@ Program/
 ├─  input/
 ├─  logs/
 ├─  model/
-│       ├─  bleu.py             # metric
-│       ├─  bleu_scorer.py      # metric utils
-│       └─  efficientnet_ec.py  # CNN encoder
+│       ├─  bleu.py                 # metric
+│       ├─  bleu_scorer.py          # metric utils
+│       ├─  efficientnet_ec.py      # CNN encoder
+│       └─  s2vt_module_lstm.py     # stacked LSTM
 ├─  output/
+├─  pretrained/
+│       ├─  checkpoint/     # training state
+│       │      │   date-time_epoch_n_iter_i.ckpt
+│       │      │                ⋮
+│       │      └─               ⋮
+│       └─  weight/         # pretrained model
+│              │       date-time_epoch_n.pt
+│              │                ⋮
+│              └─               ⋮
 ├─  utils/
 │       ├─  config.py       # setting of the whole project
 │       ├─  dataset.py      # split and preprocess the dataset
@@ -31,6 +41,5 @@ Program/
 │   inference.py    # generate the output
 │   LICENSE
 │   README.md
-│   train.py        # train the model
-└─  
+└─   train.py        # train the model
 ```
