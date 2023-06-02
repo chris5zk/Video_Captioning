@@ -38,8 +38,8 @@ logging.info(f'Voc Length after trim: {len(voc)}')
 # load dataset
 logging.info('Loading Dateset...')
 data_handler = DataHandler(cfg, voc)
-train_dataset, val_dataset, test_dataset = data_handler.getDatasets()
-train_dataloader, val_dataloader, test_dataloader = data_handler.getDataloader(train_dataset, val_dataset, test_dataset)
+train_dataset, val_dataset = data_handler.getDatasets(mode='train')
+train_dataloader, val_dataloader = data_handler.getDataloader(mode='train', train=train_dataset, val=val_dataset)
 
 # model
 logging.info('Loading Model...')
@@ -104,7 +104,7 @@ for epoch in loop:
             plt.ylabel('CE loss')
             plt.xlabel(f'iterations (per {cfg.iter_plt})')
             plt.title(f"Learning rate = {cfg.lr}")
-            plt.savefig(log_path + 'loss.png')
+            plt.savefig(log_path + f'{timestamp.split("-")[1]}_loss.png')
 
         if i != 0 and i % cfg.ckpt_save == 0:
             logging.info(f"Save checkpoint at '{cfg.ckpt_root}'")
