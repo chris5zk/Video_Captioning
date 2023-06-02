@@ -1,5 +1,7 @@
 # our ignore file
 dataset/
+pretrained/
+logs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

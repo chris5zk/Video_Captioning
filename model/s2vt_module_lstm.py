@@ -73,6 +73,7 @@ from torch import nn
 class S2VT(nn.Module):
     def __init__(self, cfg, vocab_size):
         super(S2VT, self).__init__()
+        self.cfg = cfg
         self.batch_size = 1
         self.frame_dim = cfg.frame_dim
         self.hidden_size = cfg.hidden_size
@@ -118,19 +119,19 @@ class S2VT(nn.Module):
     
         else: 
             # padding input of the second layer of LSTM, 40 time steps
-            padding = torch.zeros([self.batch_size, self.n_step, self.hidden]).cuda()
-            cap_input = torch.cat((padding, vid_out[:, 0:self.n_step, :]), 2)
+            padding = torch.zeros([self.batch_size, self.n_steps, self.hidden_size]).cuda()
+            cap_input = torch.cat((padding, vid_out[:, 0:self.n_steps, :]), 2)
             cap_out, state_cap = self.lstm2(cap_input)
             
-            bos_id = word2id['<BOS>']*torch.ones(self.batch_size, dtype=torch.long)
+            bos_id = self.cfg.SOS_token * torch.ones(self.batch_size, dtype=torch.long)
             bos_id = bos_id.cuda()
             cap_input = self.embedding(bos_id)
-            cap_input = torch.cat((cap_input, vid_out[:, self.n_step, :]), 1)
-            cap_input = cap_input.view(self.batch_size, 1, 2*self.hidden)
+            cap_input = torch.cat((cap_input, vid_out[:, self.n_steps, :]), 1)
+            cap_input = cap_input.view(self.batch_size, 1, 2*self.hidden_size)
       
             # input ["<BOS>"] to let the generate start
             cap_out, state_cap = self.lstm2(cap_input, state_cap)
-            cap_out = cap_out.contiguous().view(-1, self.hidden)
+            cap_out = cap_out.contiguous().view(-1, self.hidden_size)
             cap_out = self.drop(cap_out)
             cap_out = self.linear2(cap_out)
             cap_out = torch.argmax(cap_out, 1)
@@ -140,19 +141,19 @@ class S2VT(nn.Module):
             caption.append(cap_out)
       
             # generate one word at one time step for each batch
-            for i in range(self.n_step-2): # output n_steps-2 words
+            for i in range(self.n_steps-2): # output n_steps-2 words
                 cap_input = self.embedding(cap_out)
-                cap_input = torch.cat((cap_input, vid_out[:, self.n_step+1+i, :]), 1)
-                cap_input = cap_input.view(self.batch_size, 1, 2 * self.hidden)
+                cap_input = torch.cat((cap_input, vid_out[:, self.n_steps+1+i, :]), 1)
+                cap_input = cap_input.view(self.batch_size, 1, 2 * self.hidden_size)
         
                 cap_out, state_cap = self.lstm2(cap_input, state_cap)
-                cap_out = cap_out.contiguous().view(-1, self.hidden)
+                cap_out = cap_out.contiguous().view(-1, self.hidden_size)
                 cap_out = self.drop(cap_out)
                 cap_out = self.linear2(cap_out)
                 cap_out = torch.argmax(cap_out, 1)
-                
+
                 # get the index of each word in vocabulary
                 caption.append(cap_out)
       
             return caption
-      # size of caption is [79, batch_size]
+            # size of caption is [79, batch_size]

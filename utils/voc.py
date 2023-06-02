@@ -19,7 +19,7 @@ class Vocabulary:
         self.encode = cfg.encode_num_start
     
     def __len__(self):
-        return (len(self.word2index))
+        return len(self.word2index)
     
     def addSentence(self, sentence): 
         for word in sentence.split(' '):
@@ -28,12 +28,12 @@ class Vocabulary:
     def addWord(self, word):
         if word not in self.word2index:
             self.word2index[word] = self.encode
-            if self.trimmed == False:
+            if not self.trimmed:
                 self.word2count[word] = 1
             self.index2word[self.encode] = word
             self.encode += 1
         else:
-            if self.trimmed == False:
+            if not self.trimmed:
                 self.word2count[word] += 1
                 
     def save(self, w2i_file='word2index_dic.json', i2w_file='index2word_dic.json', w2c_file='word2count_dic.json'):

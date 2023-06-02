@@ -34,12 +34,13 @@ class MyDataset(Dataset):
             except:
                 anno_idx.append(self.cfg.UNK_token)
 
+        nWord = len(anno_idx) + 1
         anno_idx = [self.cfg.SOS_token] + anno_idx + [self.cfg.EOS_token]
+        cap_mask = [[1.0] * nWord + [0.0] * (self.cfg.length - nWord)]
 
         for i in range(len(anno_idx), self.cfg.length):
             anno_idx.append(self.cfg.EOS_token)
 
-        cap_mask = [[1.0] * len(anno_idx) + [0.0] * (self.cfg.length - len(anno_idx))]
         vid = VideoReader(self.cfg.vid_root + self.video_name_list[idx] + '.mp4')
 
         return vid, (anno_idx, cap_mask)
