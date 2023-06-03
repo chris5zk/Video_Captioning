@@ -17,7 +17,7 @@ from utils.config import MyConfig
 from utils.dataset import DataHandler
 from utils.logging import create_logger
 from utils.transform import train_transform, test_transform
-from model.efficientnet_ec import EfficientNetEc
+from model.cnn_encoder import EfficientNetEc, VGG16
 from model.s2vt_module_lstm import S2VT
 
 
@@ -44,7 +44,8 @@ train_dataloader, val_dataloader = data_handler.getDataloader(mode='train', trai
 # model
 logging.info('Loading Model...')
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-cnn_encoder = EfficientNetEc().to(device)  # output size: torch.Size([1, 1280])
+# cnn_encoder = EfficientNetEc().to(device)  # output size: torch.Size([1, 1280])
+cnn_encoder = VGG16().to(device)             # output size: torch.Size([1, 25088])
 model = S2VT(cfg, len(voc)).to(device)
 
 # loss
@@ -75,11 +76,11 @@ for epoch in loop:
     i = 0
     for vid, (label, mask) in train_dataloader:
         frame_chunk = vid[:cfg.chunk_size].asnumpy()
-        lstm_input = torch.zeros((1, cfg.chunk_size, 1280)).to(device)
+        lstm_input = torch.zeros((1, cfg.chunk_size, 25088)).to(device)
         # cnn encode
         for idx, frame in enumerate(frame_chunk):
             frame = train_transform(frame).to(device)
-            feature_ec = cnn_encoder(frame[None, :, :, :])  # torch.Size([1, 1280])
+            feature_ec = cnn_encoder(frame[None, :, :, :])  # torch.Size([1, 25088])
             lstm_input[0, idx] = feature_ec
 
         # lstm

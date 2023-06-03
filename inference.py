@@ -11,7 +11,7 @@ from decord import VideoReader
 from utils.voc import Vocabulary
 from utils.config import MyConfig
 from utils.transform import test_transform
-from model.efficientnet_ec import EfficientNetEc
+from model.cnn_encoder import EfficientNetEc, VGG16
 from model.s2vt_module_lstm import S2VT
 
 
@@ -22,8 +22,8 @@ def print_in_english(caption, cfg):
         sentence += id2word[str(cap)]
         sentence += ' '
         if cap == cfg.EOS_token:
-            print(sentence.replace('EOS', '.'))
             break
+    print(sentence.replace('EOS', '.'))
 
 
 # load config file

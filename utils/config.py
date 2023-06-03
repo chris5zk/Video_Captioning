@@ -15,7 +15,7 @@ class MyConfig:
         self.train_val_annotation_file = './dataset/msrvtt/train_val_videodatainfo.json'
         self.test_annotation_file = './dataset/msrvtt/test_videodatainfo.json'  
         self.weight_root = './pretrained/weight/'
-        self.weight_file = '230602-194919_epoch_1_60_test.pt'
+        self.weight_file = '230603-162619_epoch_2.pt'
         self.ckpt_root = './pretrained/checkpoint/'
         self.ckpt_file = '20230602-190832_epoch_1_iter_3600.ckpt'
         self.log_root = './logs/'
@@ -47,5 +47,5 @@ class MyConfig:
         
         # S2VT model
         self.dropout = 0.5
-        self.hidden_size = 128
-        self.frame_dim = 1280
+        self.hidden_size = 3000
+        self.frame_dim = 25088

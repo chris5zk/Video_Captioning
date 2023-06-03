@@ -83,9 +83,9 @@ class DataHandler:
             # testing data caption
             if int(data['video_id'][5:]) in test_id_list and len(data['caption'].split(' ')) <= self.cfg.length - 2:
                 if data['video_id'] in list(test_dict.keys()):
-                    test_dict[data['video_id']] += [data['caption']]
+                    test_dict[data['video_id']] += [{data['sen_id']: data['caption']}]
                 else:
-                    test_dict[data['video_id']] = [data['caption']]
+                    test_dict[data['video_id']] = [{data['sen_id']: data['caption']}]
 
         return train_dict, val_dict, test_dict
 
@@ -123,8 +123,8 @@ if __name__ == '__main__':
     voc = Vocabulary(cfg)
     voc.load()
     data_handler = DataHandler(cfg, voc)
-    train_dst, val_dst, test_dst = data_handler.getDatasets()
-    train_loader, val_loader, test_loader = data_handler.getDataloader(train_dst, val_dst, test_dst)
+    test_dst = data_handler.getDatasets(mode='test')
+    test_loader = data_handler.getDataloader(mode='test', test=test_dst)
 
     for batch in tqdm(test_loader):
         vid, label = batch
