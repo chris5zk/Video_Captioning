@@ -11,6 +11,7 @@ class MyConfig:
         # path
         self.voc = './vocabulary'
         self.dataset = 'msrvtt'
+        self.dataset_root = './dataset/msrvtt/'
         self.vid_root = './dataset/msrvtt/videos/'
         self.train_val_annotation_file = './dataset/msrvtt/train_val_videodatainfo.json'
         self.test_annotation_file = './dataset/msrvtt/test_videodatainfo.json'  
@@ -38,14 +39,18 @@ class MyConfig:
         
         # train
         self.use_ckpt = False
-        self.iter_plt = 50
+        self.train_info = 20        # print info
+        self.loss_interval = 20     # acc loss
+        self.mean_loss = 1000       # plot
         self.ckpt_save = 300
+        self.weight_save = 2000
+        self.pred_save = 4
 
         self.num_workers = 0
-        self.epoch = 5
+        self.epoch = 30
         self.lr = 0.0001
         
         # S2VT model
         self.dropout = 0.5
-        self.hidden_size = 3000
-        self.frame_dim = 25088
+        self.hidden_size = 128
+        self.frame_dim = 1280

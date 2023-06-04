@@ -91,6 +91,7 @@ class Vocabulary:
             new_count[word] = self.word2count[word]        
         self.word2count = new_count
 
+
 if __name__ == '__main__':
     
     # from dataset import DataHandler

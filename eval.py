@@ -7,6 +7,7 @@ Created on Fri June 2 16:59:17 2023
 import os
 import json
 import torch
+import numpy as np
 from decord import VideoReader
 from utils.voc import Vocabulary
 from utils.config import MyConfig
@@ -46,8 +47,8 @@ file = os.listdir(cfg.input)
 print('Start inference...')
 for video in file:
     vid = VideoReader(cfg.input + video)
-    frame_chunk = vid[:cfg.chunk_size].asnumpy()
-    lstm_input = torch.zeros((1, cfg.chunk_size, 1280)).to(device)
+    frame_chunk = vid.get_batch(np.linspace(1, len(vid)-1, cfg.chunk_size).astype('int')).asnumpy()
+    lstm_input = torch.zeros((1, cfg.chunk_size, cfg.frame_dim)).to(device)
     # cnn encode
     for idx, frame in enumerate(frame_chunk):
         frame = test_transform(frame).to(device)

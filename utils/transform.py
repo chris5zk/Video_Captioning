@@ -9,17 +9,18 @@ from torchvision.transforms import (Compose, RandomRotation, Resize, RandomCrop,
 
 train_transform = Compose([
         ToPILImage(),
-        RandomRotation(30),
-        Resize(256),
-        RandomCrop((224, 224)),
-        ColorJitter(0.5, 0.5, 0.5, 0.25),
+        # RandomRotation(30),
+        # Resize(256),
+        # RandomCrop((224, 224)),
+        # ColorJitter(0.5, 0.5, 0.5, 0.25),
+        Resize((224, 224)),
         ToTensor(),
-        Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+        # Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
     ])
 
 test_transform = Compose([
         ToPILImage(),
         Resize((224, 224)),
         ToTensor(),
-        Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+        # Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
     ])

@@ -19,11 +19,12 @@ class EfficientNetEc(nn.Module):
         output = self.efficientnet(x)   # torch.Size([1, 1280])
         return output
 
+
 class VGG16(nn.Module):
     def __init__(self):
         super(VGG16, self).__init__()
         self.VGG16 = models.vgg16(pretrained=True)
-        self.VGG16.classifier = nn.Identity()
+        # self.VGG16.classifier[6] = nn.Identity()
         
     def forward(self, x):
         output = self.VGG16(x)   # torch.Size([1, 1280])
@@ -32,12 +33,12 @@ class VGG16(nn.Module):
 
 if __name__ == '__main__':
 
-    input_size = 120
+    input_size = 224
     input_image = torch.randn(30, 3, input_size, input_size).cuda()
 
-    model = EfficientNetEc().cuda()
-    features = model(input_image)
-    print("Features shape:", features.shape)
+    # model = EfficientNetEc().cuda()
+    # features = model(input_image)
+    # print("Features shape:", features.shape)
     
     model = VGG16().cuda()
     features = model(input_image)
