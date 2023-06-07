@@ -16,13 +16,14 @@ class MyConfig:
         self.train_val_annotation_file = './dataset/msrvtt/train_val_videodatainfo.json'
         self.test_annotation_file = './dataset/msrvtt/test_videodatainfo.json'  
         self.weight_root = './pretrained/weight/'
-        self.weight_file = '230603-162619_epoch_2.pt'
         self.ckpt_root = './pretrained/checkpoint/'
-        self.ckpt_file = '20230602-190832_epoch_1_iter_3600.ckpt'
+        self.weight_file = ''
+        self.ckpt_file = ''
         self.log_root = './logs/'
         self.input = './input/'
         self.output = './output/'
         self.i2w = './vocabulary/msrvtt_index2word_dic.json'
+        self.eval_file = './logs/230605/134546_pred_epoch_19.json'
 
         # vocabulary
         self.PAD_token = 0
@@ -52,5 +53,10 @@ class MyConfig:
         
         # S2VT model
         self.dropout = 0.5
-        self.hidden_size = 128
-        self.frame_dim = 1280
+        self.hidden_size = 2000
+        self.frame_dim = 4096
+
+        # validation
+        self.validation = True
+        self.start_val = 24
+

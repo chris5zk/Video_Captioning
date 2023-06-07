@@ -24,7 +24,7 @@ class label_generator:
 
         for data in train_val_file['sentences']:
             # training data caption
-            if int(data['video_id'][5:]) in train_id_list:
+            if int(data['video_id'][5:]) in train_id_list and len(data['caption'].split(' ')) <= self.cfg.length - 2:
                 label = 'SOS ' + data['caption'] + ' EOS'
                 if data['video_id'] in list(train_dict.keys()):
                     train_dict[data['video_id']][data['sen_id']] = label
@@ -33,7 +33,7 @@ class label_generator:
                     train_dict[data['video_id']][data['sen_id']] = label
 
             # validation data caption
-            if int(data['video_id'][5:]) in val_id_list:
+            if int(data['video_id'][5:]) in val_id_list and len(data['caption'].split(' ')) <= self.cfg.length - 2:
                 label = 'SOS ' + data['caption'] + ' EOS'
                 if data['video_id'] in list(val_dict.keys()):
                     val_dict[data['video_id']][data['sen_id']] = label
@@ -43,7 +43,7 @@ class label_generator:
 
         for data in test_file['sentences']:
             # test data caption
-            if int(data['video_id'][5:]) in test_id_list:
+            if int(data['video_id'][5:]) in test_id_list and len(data['caption'].split(' ')) <= self.cfg.length - 2:
                 label = 'SOS ' + data['caption'] + ' EOS'
                 if data['video_id'] in list(test_dict.keys()):
                     test_dict[data['video_id']][data['sen_id']] = label

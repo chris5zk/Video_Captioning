@@ -43,3 +43,38 @@ Program/
 │   README.md
 └─   train.py        # train the model
 ```
+
+Environment
+---
+Run `pip install -r requirements.txt` to install usage package.
+```
+Package List
+- PyTorch
+- Numpy
+- tqdm
+- decord
+- matplotlib
+- json
+```
+
+How to run?
+---
+### Training
+1. Download the MSR-VTT videos dataset for training. (https://www.mediafire.com/folder/h14iarbs62e7p/shared)
+2. Ensure your path setting and folder structure are proper, please change the path and root in `./utils/config.py` .
+3. Run `./utils/label_generate.py` to reconstruct the data dictionary.
+4. Run `train.py`.
+
+### Evaluate
+1. Run `eval.py`
+2. Evaluate metrics will generate at the command window and predict captions will save as `./output/val_pred.json`
+
+### Inference
+1. Run `eval.py`
+2. Predict captions will save as `./output/test_pred.json`
+
+Acknowledgement
+---
+- Dataset process: https://github.com/nasib-ullah/video-captioning-models-in-Pytorch/tree/main/MSRVTT/captions
+- Model reference: https://github.com/YiyongHuang/S2VT
+- Metrics: https://github.com/wangleihitcs/CaptionMetrics

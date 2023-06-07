@@ -12,8 +12,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from torch import nn
+from tqdm import tqdm
 from utils.voc import Vocabulary
 from utils.config import MyConfig
+from utils.metrics import EvalMetrics
 from utils.dataset import DataHandler
 from utils.log import create_logger
 from utils.transform import train_transform
@@ -48,7 +50,6 @@ val_dataloader = data_handler.val_loader(val_dataset)
 # model
 logging.info('Loading Model...')
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# cnn_encoder = EfficientNetEc().to(device)  # output size: torch.Size([1, 1280])
 cnn_encoder = VGG16().to(device)             # output size: torch.Size([1, 4096])
 model = S2VT(cfg, len(voc)).to(device)
 
@@ -58,6 +59,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=cfg.lr)
 
 # initialize
 loss_history = []
+val_loss_history = []
 loop = range(cfg.epoch)
 
 # checkpoint
@@ -67,10 +69,12 @@ if cfg.use_ckpt:
         checkpoint = torch.load(cfg.ckpt_root + cfg.ckpt_file, map_location='cpu')
         model.load_state_dict(checkpoint['model_state_dict'])
         optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
-        epoch = checkpoint['epoch']
+        epoch = checkpoint['epoch'] + 1
         loop = range(epoch, cfg.epoch)
         loss_history = checkpoint['loss_history']
+        val_masked_loss = checkpoint['val_loss_history']
     except Exception as e:
+        print(e)
         logging.info(f"Root '{cfg.ckpt_root + cfg.ckpt_file}' not found...")
 
 # training loop
@@ -79,8 +83,14 @@ for epoch in loop:
     # iteration of training data
     i = 0
     loss_acc = 0
+    val_loss_acc = 0
+    res = {}
+    val_res = {}
     pred_dict = {}
-    for vid, (sen_id, label, mask) in train_dataloader:
+    val_pred_dict = {}
+    metrics = EvalMetrics()
+
+    for vid, (video_id, sen_id, label, mask) in train_dataloader:
         frame_chunk = vid.get_batch(np.linspace(1, len(vid)-1, cfg.chunk_size).astype('int')).asnumpy()
         lstm_input = torch.zeros((1, cfg.chunk_size, cfg.frame_dim)).to(device)
         # cnn encode
@@ -93,22 +103,6 @@ for epoch in loop:
         caption = torch.tensor(label).view(-1, len(label)).to(device)
         mask = torch.tensor(mask).to(device)
         cap_out = model(lstm_input, caption)
-
-        if epoch > cfg.pred_save:
-            pred_dict[sen_id] = {}
-            gt_id = caption.cpu().detach().numpy()[0]
-            gt_sen = ''
-            for idx in gt_id:
-                gt_sen += voc.index2word[idx]
-                gt_sen += ' '
-            pred_dict[sen_id]['gt'] = gt_sen
-
-            cap_sv = cap_out.cpu().detach().numpy()
-            pd_sen = ''
-            for prob in cap_sv:
-                pd_sen += voc.index2word[prob.argmax()]
-                pd_sen += ' '
-            pred_dict[sen_id]['pred'] = pd_sen
 
         cap_labels = caption[:, 1:].contiguous().view(-1)
         cap_mask = mask[:, 1:].contiguous().view(-1)
@@ -145,6 +139,7 @@ for epoch in loop:
                 'model_state_dict': model.state_dict(),
                 'optimizer_state_dict': optimizer.state_dict(),
                 'loss_history': loss_history,
+                'val_loss_history': val_loss_history
             },  cfg.ckpt_root + timestamp + '_checkpoint.pth.tar')
 
         if i != 0 and i % cfg.weight_save == 0:
@@ -153,10 +148,45 @@ for epoch in loop:
 
         i += 1
 
-    pred_file = os.path.join(log_path + timestamp.split('-')[1] + f'_pred_epoch_{epoch}.json')
-    with open(pred_file, 'w') as fp:
-        json.dump(pred_dict, fp, indent=4)
-    fp.close()
-
     logging.info(f"Save weight for epoch{epoch+1} at '{cfg.weight_root}'")
     torch.save(model.state_dict(), cfg.weight_root + timestamp + f'_epoch_{epoch + 1}.pt')
+
+    if epoch >= cfg.start_val and cfg.validation:
+        logging.info(f'Epoch {epoch+1} Validation...')
+        j = 0
+        model.eval()
+        for vid, (video_id, sen_id, label, mask) in tqdm(val_dataloader):
+            frame_chunk = vid.get_batch(np.linspace(1, len(vid)-1, cfg.chunk_size).astype('int')).asnumpy()
+            lstm_input = torch.zeros((1, cfg.chunk_size, cfg.frame_dim)).to(device)
+            # cnn encode
+            for idx, frame in enumerate(frame_chunk):
+                frame = train_transform(frame).to(device)
+                feature_ec = cnn_encoder(frame[None, :, :, :])  # torch.Size([1, 25088])
+                lstm_input[0, idx] = feature_ec
+
+            # lstm
+            caption = torch.tensor(label).view(-1, len(label)).to(device)
+            mask = torch.tensor(mask).to(device)
+            cap_out, probs = model(lstm_input)
+
+            cap_labels = caption[:, 1:].contiguous().view(-1)
+            cap_mask = mask[:, 1:].contiguous().view(-1)
+
+            val_logit_loss = loss_func(probs, cap_labels)
+            val_masked_loss = val_logit_loss * mask
+            val_loss = torch.sum(val_masked_loss) / torch.sum(mask)
+
+            if j != 0 and j % 5 == 0:
+                val_loss_acc += val_loss.detach().cpu().numpy()
+            if j != 0 and j % 99 == 0:
+                val_mean_loss = val_loss_acc / 19
+                val_loss_history.append(val_mean_loss)
+                logging.info(f"mean val loss: {val_mean_loss} (mean of 19 loss, and one loss per 5 iter)")
+                plt.plot(np.squeeze(val_loss_history))
+                plt.ylabel('CE loss')
+                plt.xlabel(f'iterations (per 5)')
+                plt.title(f"Learning rate = {cfg.lr} (validation)")
+                plt.savefig(log_path + f'{timestamp.split("-")[1]}_val_loss.png')
+                val_loss_acc = 0
+            j += 1
+        model.train()

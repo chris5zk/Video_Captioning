@@ -24,7 +24,7 @@ class VGG16(nn.Module):
     def __init__(self):
         super(VGG16, self).__init__()
         self.VGG16 = models.vgg16(pretrained=True)
-        # self.VGG16.classifier[6] = nn.Identity()
+        self.VGG16.classifier[6] = nn.Identity()
         
     def forward(self, x):
         output = self.VGG16(x)   # torch.Size([1, 1280])

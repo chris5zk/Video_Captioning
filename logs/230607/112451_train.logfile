@@ -1,0 +1,262 @@
+[2023-06-07 11:24:51,618] Voc Length after trim: 16847
+[2023-06-07 11:24:51,619] Loading Dateset...
+[2023-06-07 11:24:51,697] Loading Model...
+[2023-06-07 11:24:54,769] Using checkpoint file for training: '230607-095621_checkpoint.pth.tar'
+[2023-06-07 11:24:55,816] Start training...
+[2023-06-07 11:25:15,962] Epoch: 26/30 iteration:20/6513, Total loss: 0.9643954038619995, logit_loss: 0.9643954038619995, sentence length: 9.0
+[2023-06-07 11:25:30,679] Epoch: 26/30 iteration:40/6513, Total loss: 0.11914926022291183, logit_loss: 0.11914926022291183, sentence length: 8.0
+[2023-06-07 11:25:46,403] Epoch: 26/30 iteration:60/6513, Total loss: 1.821686029434204, logit_loss: 1.821686029434204, sentence length: 13.0
+[2023-06-07 11:26:04,435] Epoch: 26/30 iteration:80/6513, Total loss: 2.4722890853881836, logit_loss: 2.4722890853881836, sentence length: 22.0
+[2023-06-07 11:26:21,034] Epoch: 26/30 iteration:100/6513, Total loss: 0.16828462481498718, logit_loss: 0.16828462481498718, sentence length: 8.0
+[2023-06-07 11:26:35,714] Epoch: 26/30 iteration:120/6513, Total loss: 0.3922051191329956, logit_loss: 0.3922051191329956, sentence length: 9.0
+[2023-06-07 11:26:50,199] Epoch: 26/30 iteration:140/6513, Total loss: 0.0005557179683819413, logit_loss: 0.0005557179683819413, sentence length: 7.0
+[2023-06-07 11:27:05,038] Epoch: 26/30 iteration:160/6513, Total loss: 0.10043197125196457, logit_loss: 0.10043197125196457, sentence length: 8.0
+[2023-06-07 11:27:19,528] Epoch: 26/30 iteration:180/6513, Total loss: 1.0074101686477661, logit_loss: 1.0074101686477661, sentence length: 7.0
+[2023-06-07 11:27:34,680] Epoch: 26/30 iteration:200/6513, Total loss: 0.8860636353492737, logit_loss: 0.8860636949539185, sentence length: 13.0
+[2023-06-07 11:27:49,220] Epoch: 26/30 iteration:220/6513, Total loss: 2.522028923034668, logit_loss: 2.522028923034668, sentence length: 9.0
+[2023-06-07 11:28:03,741] Epoch: 26/30 iteration:240/6513, Total loss: 0.798058271408081, logit_loss: 0.798058271408081, sentence length: 9.0
+[2023-06-07 11:28:18,231] Epoch: 26/30 iteration:260/6513, Total loss: 0.08594142645597458, logit_loss: 0.08594142645597458, sentence length: 8.0
+[2023-06-07 11:28:32,753] Epoch: 26/30 iteration:280/6513, Total loss: 1.028490424156189, logit_loss: 1.028490424156189, sentence length: 8.0
+[2023-06-07 11:28:47,264] Epoch: 26/30 iteration:300/6513, Total loss: 0.13719400763511658, logit_loss: 0.13719400763511658, sentence length: 9.0
+[2023-06-07 11:28:47,264] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 11:29:04,714] Epoch: 26/30 iteration:320/6513, Total loss: 0.6726099848747253, logit_loss: 0.6726099848747253, sentence length: 10.0
+[2023-06-07 11:29:19,280] Epoch: 26/30 iteration:340/6513, Total loss: 0.2420782744884491, logit_loss: 0.2420782595872879, sentence length: 13.0
+[2023-06-07 11:29:33,781] Epoch: 26/30 iteration:360/6513, Total loss: 0.0015065643237903714, logit_loss: 0.0015065643237903714, sentence length: 6.0
+[2023-06-07 11:29:48,296] Epoch: 26/30 iteration:380/6513, Total loss: 0.021061405539512634, logit_loss: 0.021061405539512634, sentence length: 8.0
+[2023-06-07 11:30:02,804] Epoch: 26/30 iteration:400/6513, Total loss: 0.9823768734931946, logit_loss: 0.9823768734931946, sentence length: 11.0
+[2023-06-07 11:30:17,330] Epoch: 26/30 iteration:420/6513, Total loss: 0.8021822571754456, logit_loss: 0.8021822571754456, sentence length: 9.0
+[2023-06-07 11:30:31,834] Epoch: 26/30 iteration:440/6513, Total loss: 0.5828662514686584, logit_loss: 0.5828662514686584, sentence length: 9.0
+[2023-06-07 11:30:46,357] Epoch: 26/30 iteration:460/6513, Total loss: 0.14980733394622803, logit_loss: 0.14980733394622803, sentence length: 11.0
+[2023-06-07 11:31:00,867] Epoch: 26/30 iteration:480/6513, Total loss: 0.5884178280830383, logit_loss: 0.5884178280830383, sentence length: 4.0
+[2023-06-07 11:31:15,469] Epoch: 26/30 iteration:500/6513, Total loss: 0.6099680662155151, logit_loss: 0.6099680662155151, sentence length: 5.0
+[2023-06-07 11:31:31,032] Epoch: 26/30 iteration:520/6513, Total loss: 0.005649793893098831, logit_loss: 0.005649793893098831, sentence length: 8.0
+[2023-06-07 11:31:45,535] Epoch: 26/30 iteration:540/6513, Total loss: 0.41149815917015076, logit_loss: 0.41149815917015076, sentence length: 6.0
+[2023-06-07 11:32:00,043] Epoch: 26/30 iteration:560/6513, Total loss: 0.0023144909646362066, logit_loss: 0.0023144909646362066, sentence length: 5.0
+[2023-06-07 11:32:14,582] Epoch: 26/30 iteration:580/6513, Total loss: 0.4914363920688629, logit_loss: 0.4914363920688629, sentence length: 8.0
+[2023-06-07 11:32:29,075] Epoch: 26/30 iteration:600/6513, Total loss: 2.125586748123169, logit_loss: 2.125586748123169, sentence length: 16.0
+[2023-06-07 11:32:29,076] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 11:32:46,875] Epoch: 26/30 iteration:620/6513, Total loss: 0.017422078177332878, logit_loss: 0.017422078177332878, sentence length: 8.0
+[2023-06-07 11:33:01,397] Epoch: 26/30 iteration:640/6513, Total loss: 0.015645582228899002, logit_loss: 0.015645582228899002, sentence length: 6.0
+[2023-06-07 11:33:15,911] Epoch: 26/30 iteration:660/6513, Total loss: 0.14440388977527618, logit_loss: 0.14440388977527618, sentence length: 10.0
+[2023-06-07 11:33:30,430] Epoch: 26/30 iteration:680/6513, Total loss: 1.3304871320724487, logit_loss: 1.3304871320724487, sentence length: 12.0
+[2023-06-07 11:33:44,940] Epoch: 26/30 iteration:700/6513, Total loss: 0.16896751523017883, logit_loss: 0.16896751523017883, sentence length: 9.0
+[2023-06-07 11:33:59,424] Epoch: 26/30 iteration:720/6513, Total loss: 0.41130703687667847, logit_loss: 0.41130703687667847, sentence length: 7.0
+[2023-06-07 11:34:13,944] Epoch: 26/30 iteration:740/6513, Total loss: 0.7682021856307983, logit_loss: 0.7682021856307983, sentence length: 5.0
+[2023-06-07 11:34:29,679] Epoch: 26/30 iteration:760/6513, Total loss: 0.00036658986937254667, logit_loss: 0.00036658986937254667, sentence length: 5.0
+[2023-06-07 11:34:44,200] Epoch: 26/30 iteration:780/6513, Total loss: 0.7033565640449524, logit_loss: 0.7033565640449524, sentence length: 9.0
+[2023-06-07 11:34:58,673] Epoch: 26/30 iteration:800/6513, Total loss: 0.08055106550455093, logit_loss: 0.08055106550455093, sentence length: 8.0
+[2023-06-07 11:35:13,584] Epoch: 26/30 iteration:820/6513, Total loss: 0.047603629529476166, logit_loss: 0.047603629529476166, sentence length: 7.0
+[2023-06-07 11:35:28,050] Epoch: 26/30 iteration:840/6513, Total loss: 0.13666340708732605, logit_loss: 0.13666340708732605, sentence length: 8.0
+[2023-06-07 11:35:42,520] Epoch: 26/30 iteration:860/6513, Total loss: 1.6898894309997559, logit_loss: 1.6898894309997559, sentence length: 17.0
+[2023-06-07 11:35:57,008] Epoch: 26/30 iteration:880/6513, Total loss: 1.2906033992767334, logit_loss: 1.2906033992767334, sentence length: 15.0
+[2023-06-07 11:36:11,500] Epoch: 26/30 iteration:900/6513, Total loss: 0.7846269011497498, logit_loss: 0.7846269011497498, sentence length: 9.0
+[2023-06-07 11:36:11,500] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 11:36:29,030] Epoch: 26/30 iteration:920/6513, Total loss: 0.29098379611968994, logit_loss: 0.29098379611968994, sentence length: 10.0
+[2023-06-07 11:36:43,795] Epoch: 26/30 iteration:940/6513, Total loss: 1.1328243017196655, logit_loss: 1.1328243017196655, sentence length: 11.0
+[2023-06-07 11:36:58,244] Epoch: 26/30 iteration:960/6513, Total loss: 0.9184075593948364, logit_loss: 0.9184075593948364, sentence length: 10.0
+[2023-06-07 11:37:12,702] Epoch: 26/30 iteration:980/6513, Total loss: 0.760318398475647, logit_loss: 0.760318398475647, sentence length: 9.0
+[2023-06-07 11:37:27,153] Epoch: 26/30 iteration:1000/6513, Total loss: 0.9535435438156128, logit_loss: 0.9535436034202576, sentence length: 9.0
+[2023-06-07 11:37:27,154] mean loss: 0.636794369991403 (mean of 50 loss, and one loss per 20 iter)
+[2023-06-07 11:37:27,319] Save weight for epoch26_1000 at './pretrained/weight/'
+[2023-06-07 11:37:42,854] Epoch: 26/30 iteration:1020/6513, Total loss: 0.06812213361263275, logit_loss: 0.06812213361263275, sentence length: 9.0
+[2023-06-07 11:37:57,359] Epoch: 26/30 iteration:1040/6513, Total loss: 0.3641311526298523, logit_loss: 0.3641311526298523, sentence length: 8.0
+[2023-06-07 11:38:11,827] Epoch: 26/30 iteration:1060/6513, Total loss: 1.3590861558914185, logit_loss: 1.3590861558914185, sentence length: 10.0
+[2023-06-07 11:38:26,270] Epoch: 26/30 iteration:1080/6513, Total loss: 0.3050388693809509, logit_loss: 0.30503883957862854, sentence length: 7.0
+[2023-06-07 11:38:40,718] Epoch: 26/30 iteration:1100/6513, Total loss: 0.04487164691090584, logit_loss: 0.04487164691090584, sentence length: 4.0
+[2023-06-07 11:38:55,196] Epoch: 26/30 iteration:1120/6513, Total loss: 0.14468996226787567, logit_loss: 0.14468997716903687, sentence length: 7.0
+[2023-06-07 11:39:09,659] Epoch: 26/30 iteration:1140/6513, Total loss: 0.44478994607925415, logit_loss: 0.44478994607925415, sentence length: 8.0
+[2023-06-07 11:39:24,140] Epoch: 26/30 iteration:1160/6513, Total loss: 2.7232115268707275, logit_loss: 2.7232115268707275, sentence length: 18.0
+[2023-06-07 11:39:38,592] Epoch: 26/30 iteration:1180/6513, Total loss: 0.6785826683044434, logit_loss: 0.6785826683044434, sentence length: 5.0
+[2023-06-07 11:39:53,073] Epoch: 26/30 iteration:1200/6513, Total loss: 0.6374320983886719, logit_loss: 0.6374320983886719, sentence length: 11.0
+[2023-06-07 11:39:53,074] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 11:40:10,448] Epoch: 26/30 iteration:1220/6513, Total loss: 0.14680002629756927, logit_loss: 0.14680002629756927, sentence length: 4.0
+[2023-06-07 11:40:24,929] Epoch: 26/30 iteration:1240/6513, Total loss: 0.07197750359773636, logit_loss: 0.07197750359773636, sentence length: 7.0
+[2023-06-07 11:40:39,397] Epoch: 26/30 iteration:1260/6513, Total loss: 1.0294082164764404, logit_loss: 1.0294082164764404, sentence length: 9.0
+[2023-06-07 11:40:53,856] Epoch: 26/30 iteration:1280/6513, Total loss: 0.0001415266888216138, logit_loss: 0.0001415266888216138, sentence length: 5.0
+[2023-06-07 11:41:08,333] Epoch: 26/30 iteration:1300/6513, Total loss: 1.8414427042007446, logit_loss: 1.841442584991455, sentence length: 14.0
+[2023-06-07 11:41:22,784] Epoch: 26/30 iteration:1320/6513, Total loss: 2.831843376159668, logit_loss: 2.831843376159668, sentence length: 19.0
+[2023-06-07 11:41:37,326] Epoch: 26/30 iteration:1340/6513, Total loss: 0.06420540064573288, logit_loss: 0.06420540064573288, sentence length: 5.0
+[2023-06-07 11:41:51,763] Epoch: 26/30 iteration:1360/6513, Total loss: 1.7093064785003662, logit_loss: 1.7093064785003662, sentence length: 16.0
+[2023-06-07 11:42:06,240] Epoch: 26/30 iteration:1380/6513, Total loss: 1.220041036605835, logit_loss: 1.2200411558151245, sentence length: 18.0
+[2023-06-07 11:42:20,699] Epoch: 26/30 iteration:1400/6513, Total loss: 0.6236072182655334, logit_loss: 0.6236072182655334, sentence length: 9.0
+[2023-06-07 11:42:35,201] Epoch: 26/30 iteration:1420/6513, Total loss: 0.009790001437067986, logit_loss: 0.009790001437067986, sentence length: 6.0
+[2023-06-07 11:42:49,712] Epoch: 26/30 iteration:1440/6513, Total loss: 0.47522926330566406, logit_loss: 0.47522926330566406, sentence length: 7.0
+[2023-06-07 11:43:04,194] Epoch: 26/30 iteration:1460/6513, Total loss: 0.811562180519104, logit_loss: 0.811562180519104, sentence length: 8.0
+[2023-06-07 11:43:18,652] Epoch: 26/30 iteration:1480/6513, Total loss: 0.006365066859871149, logit_loss: 0.006365066394209862, sentence length: 5.0
+[2023-06-07 11:43:33,139] Epoch: 26/30 iteration:1500/6513, Total loss: 0.28306010365486145, logit_loss: 0.28306010365486145, sentence length: 8.0
+[2023-06-07 11:43:33,140] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 11:43:50,584] Epoch: 26/30 iteration:1520/6513, Total loss: 0.8631905317306519, logit_loss: 0.8631905913352966, sentence length: 10.0
+[2023-06-07 11:44:05,034] Epoch: 26/30 iteration:1540/6513, Total loss: 0.09801212698221207, logit_loss: 0.09801212698221207, sentence length: 5.0
+[2023-06-07 11:44:19,492] Epoch: 26/30 iteration:1560/6513, Total loss: 0.9688869118690491, logit_loss: 0.9688869118690491, sentence length: 11.0
+[2023-06-07 11:44:33,967] Epoch: 26/30 iteration:1580/6513, Total loss: 0.1748669296503067, logit_loss: 0.1748669296503067, sentence length: 6.0
+[2023-06-07 11:44:48,407] Epoch: 26/30 iteration:1600/6513, Total loss: 0.5408525466918945, logit_loss: 0.5408525466918945, sentence length: 6.0
+[2023-06-07 11:45:02,848] Epoch: 26/30 iteration:1620/6513, Total loss: 0.04153049737215042, logit_loss: 0.04153049737215042, sentence length: 6.0
+[2023-06-07 11:45:17,327] Epoch: 26/30 iteration:1640/6513, Total loss: 0.001007174258120358, logit_loss: 0.001007174258120358, sentence length: 7.0
+[2023-06-07 11:45:31,783] Epoch: 26/30 iteration:1660/6513, Total loss: 0.4721392095088959, logit_loss: 0.4721391797065735, sentence length: 6.0
+[2023-06-07 11:45:46,248] Epoch: 26/30 iteration:1680/6513, Total loss: 4.116430759429932, logit_loss: 4.116430759429932, sentence length: 22.0
+[2023-06-07 11:46:00,710] Epoch: 26/30 iteration:1700/6513, Total loss: 1.5695525407791138, logit_loss: 1.5695525407791138, sentence length: 16.0
+[2023-06-07 11:46:15,195] Epoch: 26/30 iteration:1720/6513, Total loss: 0.004885945003479719, logit_loss: 0.004885945003479719, sentence length: 6.0
+[2023-06-07 11:46:29,651] Epoch: 26/30 iteration:1740/6513, Total loss: 0.7491340041160583, logit_loss: 0.7491340041160583, sentence length: 10.0
+[2023-06-07 11:46:44,136] Epoch: 26/30 iteration:1760/6513, Total loss: 0.4170292615890503, logit_loss: 0.4170292615890503, sentence length: 6.0
+[2023-06-07 11:46:58,653] Epoch: 26/30 iteration:1780/6513, Total loss: 2.722872495651245, logit_loss: 2.722872734069824, sentence length: 14.0
+[2023-06-07 11:47:13,113] Epoch: 26/30 iteration:1800/6513, Total loss: 0.18682809174060822, logit_loss: 0.18682809174060822, sentence length: 8.0
+[2023-06-07 11:47:13,114] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 11:47:30,534] Epoch: 26/30 iteration:1820/6513, Total loss: 0.5132796764373779, logit_loss: 0.5132796764373779, sentence length: 6.0
+[2023-06-07 11:47:45,010] Epoch: 26/30 iteration:1840/6513, Total loss: 2.3549721240997314, logit_loss: 2.3549721240997314, sentence length: 10.0
+[2023-06-07 11:47:59,474] Epoch: 26/30 iteration:1860/6513, Total loss: 0.2635941207408905, logit_loss: 0.2635941207408905, sentence length: 6.0
+[2023-06-07 11:48:13,926] Epoch: 26/30 iteration:1880/6513, Total loss: 0.35478347539901733, logit_loss: 0.35478347539901733, sentence length: 5.0
+[2023-06-07 11:48:28,375] Epoch: 26/30 iteration:1900/6513, Total loss: 1.2471427917480469, logit_loss: 1.2471427917480469, sentence length: 12.0
+[2023-06-07 11:48:42,820] Epoch: 26/30 iteration:1920/6513, Total loss: 0.8435090780258179, logit_loss: 0.8435090780258179, sentence length: 11.0
+[2023-06-07 11:48:57,264] Epoch: 26/30 iteration:1940/6513, Total loss: 3.657870054244995, logit_loss: 3.657870054244995, sentence length: 23.0
+[2023-06-07 11:49:11,755] Epoch: 26/30 iteration:1960/6513, Total loss: 0.06261533498764038, logit_loss: 0.06261533498764038, sentence length: 5.0
+[2023-06-07 11:49:26,253] Epoch: 26/30 iteration:1980/6513, Total loss: 0.007426271680742502, logit_loss: 0.0074262721464037895, sentence length: 6.0
+[2023-06-07 11:49:40,744] Epoch: 26/30 iteration:2000/6513, Total loss: 1.2728660106658936, logit_loss: 1.272866129875183, sentence length: 15.0
+[2023-06-07 11:49:40,745] mean loss: 0.8280002845590935 (mean of 50 loss, and one loss per 20 iter)
+[2023-06-07 11:49:40,784] Save weight for epoch26_2000 at './pretrained/weight/'
+[2023-06-07 11:49:56,625] Epoch: 26/30 iteration:2020/6513, Total loss: 0.7715301513671875, logit_loss: 0.7715301513671875, sentence length: 7.0
+[2023-06-07 11:50:11,069] Epoch: 26/30 iteration:2040/6513, Total loss: 2.9303691387176514, logit_loss: 2.9303691387176514, sentence length: 13.0
+[2023-06-07 11:50:25,511] Epoch: 26/30 iteration:2060/6513, Total loss: 0.8251816034317017, logit_loss: 0.8251816034317017, sentence length: 14.0
+[2023-06-07 11:50:39,986] Epoch: 26/30 iteration:2080/6513, Total loss: 2.0899715423583984, logit_loss: 2.0899715423583984, sentence length: 16.0
+[2023-06-07 11:50:54,449] Epoch: 26/30 iteration:2100/6513, Total loss: 0.6625422239303589, logit_loss: 0.6625421643257141, sentence length: 14.0
+[2023-06-07 11:50:54,449] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 11:51:12,003] Epoch: 26/30 iteration:2120/6513, Total loss: 1.8101102113723755, logit_loss: 1.8101102113723755, sentence length: 14.0
+[2023-06-07 11:51:26,435] Epoch: 26/30 iteration:2140/6513, Total loss: 0.6787254214286804, logit_loss: 0.6787254214286804, sentence length: 10.0
+[2023-06-07 11:51:40,990] Epoch: 26/30 iteration:2160/6513, Total loss: 0.7158660292625427, logit_loss: 0.7158660292625427, sentence length: 11.0
+[2023-06-07 11:51:55,461] Epoch: 26/30 iteration:2180/6513, Total loss: 0.4845915734767914, logit_loss: 0.484591543674469, sentence length: 6.0
+[2023-06-07 11:52:09,902] Epoch: 26/30 iteration:2200/6513, Total loss: 0.8329876661300659, logit_loss: 0.8329877257347107, sentence length: 10.0
+[2023-06-07 11:52:24,446] Epoch: 26/30 iteration:2220/6513, Total loss: 0.3007983863353729, logit_loss: 0.3007983863353729, sentence length: 7.0
+[2023-06-07 11:52:38,831] Epoch: 26/30 iteration:2240/6513, Total loss: 0.6966304779052734, logit_loss: 0.6966304779052734, sentence length: 10.0
+[2023-06-07 11:52:53,177] Epoch: 26/30 iteration:2260/6513, Total loss: 0.27598750591278076, logit_loss: 0.27598750591278076, sentence length: 6.0
+[2023-06-07 11:53:07,536] Epoch: 26/30 iteration:2280/6513, Total loss: 0.7379056811332703, logit_loss: 0.7379056811332703, sentence length: 9.0
+[2023-06-07 11:53:21,898] Epoch: 26/30 iteration:2300/6513, Total loss: 0.9346565008163452, logit_loss: 0.9346565008163452, sentence length: 8.0
+[2023-06-07 11:53:36,247] Epoch: 26/30 iteration:2320/6513, Total loss: 0.11477162688970566, logit_loss: 0.11477162688970566, sentence length: 4.0
+[2023-06-07 11:53:50,607] Epoch: 26/30 iteration:2340/6513, Total loss: 0.0001757700665621087, logit_loss: 0.0001757700665621087, sentence length: 7.0
+[2023-06-07 11:54:05,018] Epoch: 26/30 iteration:2360/6513, Total loss: 0.20295128226280212, logit_loss: 0.20295128226280212, sentence length: 5.0
+[2023-06-07 11:54:19,363] Epoch: 26/30 iteration:2380/6513, Total loss: 1.4149070978164673, logit_loss: 1.4149070978164673, sentence length: 11.0
+[2023-06-07 11:54:33,705] Epoch: 26/30 iteration:2400/6513, Total loss: 0.25987088680267334, logit_loss: 0.25987088680267334, sentence length: 9.0
+[2023-06-07 11:54:33,705] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 11:54:50,898] Epoch: 26/30 iteration:2420/6513, Total loss: 0.4407937824726105, logit_loss: 0.4407937824726105, sentence length: 9.0
+[2023-06-07 11:55:05,258] Epoch: 26/30 iteration:2440/6513, Total loss: 0.18308238685131073, logit_loss: 0.18308238685131073, sentence length: 9.0
+[2023-06-07 11:55:19,609] Epoch: 26/30 iteration:2460/6513, Total loss: 1.3429304361343384, logit_loss: 1.342930555343628, sentence length: 12.0
+[2023-06-07 11:55:33,956] Epoch: 26/30 iteration:2480/6513, Total loss: 0.33801865577697754, logit_loss: 0.33801865577697754, sentence length: 7.0
+[2023-06-07 11:55:48,286] Epoch: 26/30 iteration:2500/6513, Total loss: 1.6303989887237549, logit_loss: 1.6303989887237549, sentence length: 16.0
+[2023-06-07 11:56:02,639] Epoch: 26/30 iteration:2520/6513, Total loss: 1.0779491662979126, logit_loss: 1.0779491662979126, sentence length: 5.0
+[2023-06-07 11:56:16,971] Epoch: 26/30 iteration:2540/6513, Total loss: 0.13686537742614746, logit_loss: 0.13686537742614746, sentence length: 10.0
+[2023-06-07 11:56:31,319] Epoch: 26/30 iteration:2560/6513, Total loss: 1.2023123502731323, logit_loss: 1.2023123502731323, sentence length: 10.0
+[2023-06-07 11:56:45,647] Epoch: 26/30 iteration:2580/6513, Total loss: 0.0967533066868782, logit_loss: 0.0967533066868782, sentence length: 12.0
+[2023-06-07 11:57:00,033] Epoch: 26/30 iteration:2600/6513, Total loss: 1.0864256620407104, logit_loss: 1.0864256620407104, sentence length: 10.0
+[2023-06-07 11:57:14,359] Epoch: 26/30 iteration:2620/6513, Total loss: 0.664275050163269, logit_loss: 0.664275050163269, sentence length: 7.0
+[2023-06-07 11:57:28,700] Epoch: 26/30 iteration:2640/6513, Total loss: 0.9752844572067261, logit_loss: 0.9752845168113708, sentence length: 10.0
+[2023-06-07 11:57:43,039] Epoch: 26/30 iteration:2660/6513, Total loss: 0.8280541896820068, logit_loss: 0.8280541896820068, sentence length: 12.0
+[2023-06-07 11:57:57,365] Epoch: 26/30 iteration:2680/6513, Total loss: 0.25490638613700867, logit_loss: 0.25490638613700867, sentence length: 6.0
+[2023-06-07 11:58:11,723] Epoch: 26/30 iteration:2700/6513, Total loss: 0.0159171000123024, logit_loss: 0.0159171000123024, sentence length: 6.0
+[2023-06-07 11:58:11,724] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 11:58:28,957] Epoch: 26/30 iteration:2720/6513, Total loss: 0.36341455578804016, logit_loss: 0.36341455578804016, sentence length: 6.0
+[2023-06-07 11:58:43,301] Epoch: 26/30 iteration:2740/6513, Total loss: 1.9710696935653687, logit_loss: 1.9710696935653687, sentence length: 16.0
+[2023-06-07 11:58:57,649] Epoch: 26/30 iteration:2760/6513, Total loss: 0.1525171995162964, logit_loss: 0.1525171995162964, sentence length: 6.0
+[2023-06-07 11:59:12,000] Epoch: 26/30 iteration:2780/6513, Total loss: 0.5967286229133606, logit_loss: 0.5967286229133606, sentence length: 8.0
+[2023-06-07 11:59:26,366] Epoch: 26/30 iteration:2800/6513, Total loss: 0.0029261980671435595, logit_loss: 0.002926197834312916, sentence length: 7.0
+[2023-06-07 11:59:40,705] Epoch: 26/30 iteration:2820/6513, Total loss: 1.1631200313568115, logit_loss: 1.163119912147522, sentence length: 14.0
+[2023-06-07 11:59:55,051] Epoch: 26/30 iteration:2840/6513, Total loss: 0.6270731687545776, logit_loss: 0.6270731687545776, sentence length: 8.0
+[2023-06-07 12:00:09,383] Epoch: 26/30 iteration:2860/6513, Total loss: 1.5793180465698242, logit_loss: 1.5793180465698242, sentence length: 9.0
+[2023-06-07 12:00:23,755] Epoch: 26/30 iteration:2880/6513, Total loss: 0.006005791947245598, logit_loss: 0.006005791947245598, sentence length: 5.0
+[2023-06-07 12:00:38,131] Epoch: 26/30 iteration:2900/6513, Total loss: 1.2201744318008423, logit_loss: 1.2201744318008423, sentence length: 8.0
+[2023-06-07 12:00:52,483] Epoch: 26/30 iteration:2920/6513, Total loss: 0.5651920437812805, logit_loss: 0.5651920437812805, sentence length: 6.0
+[2023-06-07 12:01:06,842] Epoch: 26/30 iteration:2940/6513, Total loss: 0.09014879167079926, logit_loss: 0.09014879167079926, sentence length: 4.0
+[2023-06-07 12:01:21,234] Epoch: 26/30 iteration:2960/6513, Total loss: 0.31831830739974976, logit_loss: 0.31831830739974976, sentence length: 8.0
+[2023-06-07 12:01:35,600] Epoch: 26/30 iteration:2980/6513, Total loss: 0.598219633102417, logit_loss: 0.598219633102417, sentence length: 13.0
+[2023-06-07 12:01:49,980] Epoch: 26/30 iteration:3000/6513, Total loss: 1.640731692314148, logit_loss: 1.640731692314148, sentence length: 12.0
+[2023-06-07 12:01:49,980] mean loss: 0.7581891256369999 (mean of 50 loss, and one loss per 20 iter)
+[2023-06-07 12:01:50,015] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 12:01:52,787] Save weight for epoch26_3000 at './pretrained/weight/'
+[2023-06-07 12:02:08,058] Epoch: 26/30 iteration:3020/6513, Total loss: 0.778804361820221, logit_loss: 0.778804361820221, sentence length: 7.0
+[2023-06-07 12:02:22,386] Epoch: 26/30 iteration:3040/6513, Total loss: 3.436807155609131, logit_loss: 3.436807155609131, sentence length: 26.0
+[2023-06-07 12:02:36,722] Epoch: 26/30 iteration:3060/6513, Total loss: 0.02169731631875038, logit_loss: 0.02169731631875038, sentence length: 7.0
+[2023-06-07 12:02:51,056] Epoch: 26/30 iteration:3080/6513, Total loss: 0.8054193258285522, logit_loss: 0.8054193258285522, sentence length: 7.0
+[2023-06-07 12:03:05,387] Epoch: 26/30 iteration:3100/6513, Total loss: 0.26808902621269226, logit_loss: 0.26808902621269226, sentence length: 9.0
+[2023-06-07 12:03:19,723] Epoch: 26/30 iteration:3120/6513, Total loss: 3.3733654022216797, logit_loss: 3.3733654022216797, sentence length: 23.0
+[2023-06-07 12:03:34,101] Epoch: 26/30 iteration:3140/6513, Total loss: 0.0002649666857905686, logit_loss: 0.0002649666857905686, sentence length: 6.0
+[2023-06-07 12:03:48,468] Epoch: 26/30 iteration:3160/6513, Total loss: 0.07282310724258423, logit_loss: 0.07282310724258423, sentence length: 5.0
+[2023-06-07 12:04:02,805] Epoch: 26/30 iteration:3180/6513, Total loss: 0.19004660844802856, logit_loss: 0.19004660844802856, sentence length: 10.0
+[2023-06-07 12:04:17,138] Epoch: 26/30 iteration:3200/6513, Total loss: 0.004728647880256176, logit_loss: 0.004728647880256176, sentence length: 6.0
+[2023-06-07 12:04:31,477] Epoch: 26/30 iteration:3220/6513, Total loss: 0.13509836792945862, logit_loss: 0.13509836792945862, sentence length: 11.0
+[2023-06-07 12:04:45,812] Epoch: 26/30 iteration:3240/6513, Total loss: 0.8822866082191467, logit_loss: 0.8822866082191467, sentence length: 11.0
+[2023-06-07 12:05:00,165] Epoch: 26/30 iteration:3260/6513, Total loss: 1.0861515998840332, logit_loss: 1.0861515998840332, sentence length: 12.0
+[2023-06-07 12:05:14,513] Epoch: 26/30 iteration:3280/6513, Total loss: 0.13134047389030457, logit_loss: 0.13134047389030457, sentence length: 6.0
+[2023-06-07 12:05:28,880] Epoch: 26/30 iteration:3300/6513, Total loss: 0.4331168830394745, logit_loss: 0.4331168830394745, sentence length: 8.0
+[2023-06-07 12:05:28,880] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 12:05:46,212] Epoch: 26/30 iteration:3320/6513, Total loss: 0.4200440049171448, logit_loss: 0.4200440049171448, sentence length: 9.0
+[2023-06-07 12:06:00,554] Epoch: 26/30 iteration:3340/6513, Total loss: 0.6164215207099915, logit_loss: 0.6164215207099915, sentence length: 9.0
+[2023-06-07 12:06:14,904] Epoch: 26/30 iteration:3360/6513, Total loss: 0.0703732818365097, logit_loss: 0.0703732818365097, sentence length: 5.0
+[2023-06-07 12:06:29,249] Epoch: 26/30 iteration:3380/6513, Total loss: 0.2329172044992447, logit_loss: 0.2329172044992447, sentence length: 6.0
+[2023-06-07 12:06:43,630] Epoch: 26/30 iteration:3400/6513, Total loss: 0.5207905173301697, logit_loss: 0.5207905173301697, sentence length: 8.0
+[2023-06-07 12:06:57,965] Epoch: 26/30 iteration:3420/6513, Total loss: 1.0963828563690186, logit_loss: 1.0963828563690186, sentence length: 9.0
+[2023-06-07 12:07:12,318] Epoch: 26/30 iteration:3440/6513, Total loss: 0.0010124932741746306, logit_loss: 0.0010124932741746306, sentence length: 7.0
+[2023-06-07 12:07:26,680] Epoch: 26/30 iteration:3460/6513, Total loss: 0.42113468050956726, logit_loss: 0.42113468050956726, sentence length: 4.0
+[2023-06-07 12:07:41,094] Epoch: 26/30 iteration:3480/6513, Total loss: 0.3452163338661194, logit_loss: 0.3452163338661194, sentence length: 7.0
+[2023-06-07 12:07:55,469] Epoch: 26/30 iteration:3500/6513, Total loss: 1.124131441116333, logit_loss: 1.124131441116333, sentence length: 11.0
+[2023-06-07 12:08:09,829] Epoch: 26/30 iteration:3520/6513, Total loss: 0.45502281188964844, logit_loss: 0.45502281188964844, sentence length: 4.0
+[2023-06-07 12:08:24,184] Epoch: 26/30 iteration:3540/6513, Total loss: 0.5707085132598877, logit_loss: 0.5707085132598877, sentence length: 11.0
+[2023-06-07 12:08:38,552] Epoch: 26/30 iteration:3560/6513, Total loss: 1.3100701570510864, logit_loss: 1.3100701570510864, sentence length: 11.0
+[2023-06-07 12:08:52,902] Epoch: 26/30 iteration:3580/6513, Total loss: 0.017706096172332764, logit_loss: 0.017706096172332764, sentence length: 6.0
+[2023-06-07 12:09:07,279] Epoch: 26/30 iteration:3600/6513, Total loss: 0.9587668180465698, logit_loss: 0.9587668776512146, sentence length: 9.0
+[2023-06-07 12:09:07,279] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 12:09:24,516] Epoch: 26/30 iteration:3620/6513, Total loss: 1.2342618703842163, logit_loss: 1.2342618703842163, sentence length: 14.0
+[2023-06-07 12:09:38,856] Epoch: 26/30 iteration:3640/6513, Total loss: 1.49770987033844, logit_loss: 1.49770987033844, sentence length: 13.0
+[2023-06-07 12:09:53,212] Epoch: 26/30 iteration:3660/6513, Total loss: 0.667057454586029, logit_loss: 0.6670575141906738, sentence length: 13.0
+[2023-06-07 12:10:07,553] Epoch: 26/30 iteration:3680/6513, Total loss: 0.3461022973060608, logit_loss: 0.3461022973060608, sentence length: 11.0
+[2023-06-07 12:10:21,891] Epoch: 26/30 iteration:3700/6513, Total loss: 0.7724460959434509, logit_loss: 0.7724460959434509, sentence length: 8.0
+[2023-06-07 12:10:36,247] Epoch: 26/30 iteration:3720/6513, Total loss: 0.2718307673931122, logit_loss: 0.2718307673931122, sentence length: 4.0
+[2023-06-07 12:10:50,615] Epoch: 26/30 iteration:3740/6513, Total loss: 1.3717145919799805, logit_loss: 1.3717145919799805, sentence length: 7.0
+[2023-06-07 12:11:04,955] Epoch: 26/30 iteration:3760/6513, Total loss: 0.6268431544303894, logit_loss: 0.6268431544303894, sentence length: 6.0
+[2023-06-07 12:11:19,320] Epoch: 26/30 iteration:3780/6513, Total loss: 2.9740238189697266, logit_loss: 2.9740238189697266, sentence length: 18.0
+[2023-06-07 12:11:33,698] Epoch: 26/30 iteration:3800/6513, Total loss: 0.8738064169883728, logit_loss: 0.8738064169883728, sentence length: 13.0
+[2023-06-07 12:11:48,051] Epoch: 26/30 iteration:3820/6513, Total loss: 0.005311912391334772, logit_loss: 0.005311912391334772, sentence length: 5.0
+[2023-06-07 12:12:02,403] Epoch: 26/30 iteration:3840/6513, Total loss: 0.953882098197937, logit_loss: 0.953882098197937, sentence length: 10.0
+[2023-06-07 12:12:16,753] Epoch: 26/30 iteration:3860/6513, Total loss: 1.0455679893493652, logit_loss: 1.0455679893493652, sentence length: 10.0
+[2023-06-07 12:12:31,107] Epoch: 26/30 iteration:3880/6513, Total loss: 1.1400320529937744, logit_loss: 1.1400320529937744, sentence length: 14.0
+[2023-06-07 12:12:45,462] Epoch: 26/30 iteration:3900/6513, Total loss: 0.2723424434661865, logit_loss: 0.2723424434661865, sentence length: 7.0
+[2023-06-07 12:12:45,463] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 12:13:02,853] Epoch: 26/30 iteration:3920/6513, Total loss: 0.25868937373161316, logit_loss: 0.25868937373161316, sentence length: 12.0
+[2023-06-07 12:13:17,172] Epoch: 26/30 iteration:3940/6513, Total loss: 0.34939512610435486, logit_loss: 0.34939512610435486, sentence length: 7.0
+[2023-06-07 12:13:31,516] Epoch: 26/30 iteration:3960/6513, Total loss: 0.0003383244329597801, logit_loss: 0.0003383244329597801, sentence length: 6.0
+[2023-06-07 12:13:45,870] Epoch: 26/30 iteration:3980/6513, Total loss: 0.002975967712700367, logit_loss: 0.002975967712700367, sentence length: 6.0
+[2023-06-07 12:14:00,205] Epoch: 26/30 iteration:4000/6513, Total loss: 1.4272818565368652, logit_loss: 1.4272819757461548, sentence length: 13.0
+[2023-06-07 12:14:00,205] mean loss: 0.7174470413062954 (mean of 50 loss, and one loss per 20 iter)
+[2023-06-07 12:14:00,240] Save weight for epoch26_4000 at './pretrained/weight/'
+[2023-06-07 12:14:15,518] Epoch: 26/30 iteration:4020/6513, Total loss: 1.1367530822753906, logit_loss: 1.1367530822753906, sentence length: 9.0
+[2023-06-07 12:14:29,857] Epoch: 26/30 iteration:4040/6513, Total loss: 0.5370838046073914, logit_loss: 0.5370838046073914, sentence length: 6.0
+[2023-06-07 12:14:44,200] Epoch: 26/30 iteration:4060/6513, Total loss: 4.918996810913086, logit_loss: 4.918996810913086, sentence length: 24.0
+[2023-06-07 12:14:58,568] Epoch: 26/30 iteration:4080/6513, Total loss: 0.3299180865287781, logit_loss: 0.3299180865287781, sentence length: 5.0
+[2023-06-07 12:15:12,926] Epoch: 26/30 iteration:4100/6513, Total loss: 0.0015488127246499062, logit_loss: 0.0015488127246499062, sentence length: 5.0
+[2023-06-07 12:15:27,274] Epoch: 26/30 iteration:4120/6513, Total loss: 1.6695590019226074, logit_loss: 1.6695590019226074, sentence length: 13.0
+[2023-06-07 12:15:41,640] Epoch: 26/30 iteration:4140/6513, Total loss: 0.37316563725471497, logit_loss: 0.37316563725471497, sentence length: 12.0
+[2023-06-07 12:15:55,989] Epoch: 26/30 iteration:4160/6513, Total loss: 0.43228626251220703, logit_loss: 0.43228626251220703, sentence length: 8.0
+[2023-06-07 12:16:10,345] Epoch: 26/30 iteration:4180/6513, Total loss: 0.00031402448075823486, logit_loss: 0.00031402448075823486, sentence length: 4.0
+[2023-06-07 12:16:25,958] Epoch: 26/30 iteration:4200/6513, Total loss: 0.15570084750652313, logit_loss: 0.15570084750652313, sentence length: 6.0
+[2023-06-07 12:16:25,959] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 12:16:43,757] Epoch: 26/30 iteration:4220/6513, Total loss: 0.18368491530418396, logit_loss: 0.18368491530418396, sentence length: 5.0
+[2023-06-07 12:16:59,226] Epoch: 26/30 iteration:4240/6513, Total loss: 0.8539445996284485, logit_loss: 0.8539445996284485, sentence length: 11.0
+[2023-06-07 12:17:14,859] Epoch: 26/30 iteration:4260/6513, Total loss: 0.9702432155609131, logit_loss: 0.9702432155609131, sentence length: 12.0
+[2023-06-07 12:17:31,202] Epoch: 26/30 iteration:4280/6513, Total loss: 0.09102249890565872, logit_loss: 0.09102249890565872, sentence length: 5.0
+[2023-06-07 12:17:46,443] Epoch: 26/30 iteration:4300/6513, Total loss: 1.0379081964492798, logit_loss: 1.0379081964492798, sentence length: 13.0
+[2023-06-07 12:18:02,796] Epoch: 26/30 iteration:4320/6513, Total loss: 0.48435455560684204, logit_loss: 0.48435455560684204, sentence length: 8.0
+[2023-06-07 12:18:18,111] Epoch: 26/30 iteration:4340/6513, Total loss: 0.04885028302669525, logit_loss: 0.04885028302669525, sentence length: 5.0
+[2023-06-07 12:18:33,431] Epoch: 26/30 iteration:4360/6513, Total loss: 0.899380624294281, logit_loss: 0.899380624294281, sentence length: 11.0
+[2023-06-07 12:18:48,734] Epoch: 26/30 iteration:4380/6513, Total loss: 2.014263153076172, logit_loss: 2.014263153076172, sentence length: 13.0
+[2023-06-07 12:19:04,063] Epoch: 26/30 iteration:4400/6513, Total loss: 0.017823856323957443, logit_loss: 0.017823856323957443, sentence length: 9.0
+[2023-06-07 12:19:19,368] Epoch: 26/30 iteration:4420/6513, Total loss: 1.5289939641952515, logit_loss: 1.5289939641952515, sentence length: 12.0
+[2023-06-07 12:19:34,701] Epoch: 26/30 iteration:4440/6513, Total loss: 0.3666940927505493, logit_loss: 0.3666940927505493, sentence length: 6.0
+[2023-06-07 12:19:50,061] Epoch: 26/30 iteration:4460/6513, Total loss: 2.600234031677246, logit_loss: 2.600234031677246, sentence length: 16.0
+[2023-06-07 12:20:05,368] Epoch: 26/30 iteration:4480/6513, Total loss: 0.12545056641101837, logit_loss: 0.12545056641101837, sentence length: 6.0
+[2023-06-07 12:20:20,649] Epoch: 26/30 iteration:4500/6513, Total loss: 0.5254053473472595, logit_loss: 0.5254053473472595, sentence length: 7.0
+[2023-06-07 12:20:20,649] Save checkpoint at './pretrained/checkpoint/'
+[2023-06-07 12:20:39,513] Epoch: 26/30 iteration:4520/6513, Total loss: 0.3802538812160492, logit_loss: 0.3802538812160492, sentence length: 10.0
+[2023-06-07 12:20:54,807] Epoch: 26/30 iteration:4540/6513, Total loss: 0.023792941123247147, logit_loss: 0.023792941123247147, sentence length: 7.0
+[2023-06-07 12:21:11,926] Epoch: 26/30 iteration:4560/6513, Total loss: 1.030816912651062, logit_loss: 1.030816912651062, sentence length: 11.0
+[2023-06-07 12:21:28,147] Epoch: 26/30 iteration:4580/6513, Total loss: 0.37623122334480286, logit_loss: 0.37623122334480286, sentence length: 8.0
+[2023-06-07 12:21:44,261] Epoch: 26/30 iteration:4600/6513, Total loss: 0.8113771080970764, logit_loss: 0.8113771080970764, sentence length: 7.0
+[2023-06-07 12:22:01,101] Epoch: 26/30 iteration:4620/6513, Total loss: 0.4395366311073303, logit_loss: 0.4395366311073303, sentence length: 8.0
+[2023-06-07 12:22:16,110] Epoch: 26/30 iteration:4640/6513, Total loss: 1.3747279644012451, logit_loss: 1.3747279644012451, sentence length: 14.0
+[2023-06-07 12:22:31,644] Epoch: 26/30 iteration:4660/6513, Total loss: 0.8029296398162842, logit_loss: 0.8029295802116394, sentence length: 11.0
+[2023-06-07 12:22:47,532] Epoch: 26/30 iteration:4680/6513, Total loss: 0.0006672370946034789, logit_loss: 0.0006672370946034789, sentence length: 5.0

@@ -10,65 +10,6 @@ Original file is located at
 import torch
 import torch.nn as nn
 
-vocab_size = 1000  # Example vocabulary size
-hidden_size = 256  # Example hidden size
-batch_size = 1  # Example batch size
-
-# Creating an instance of the embedding layer
-embedding = nn.Embedding(vocab_size, hidden_size)
-
-# Generating random bos_id tensor
-bos_id = torch.randint(0, vocab_size, (batch_size,))
-
-# Embedding the bos_id tensor
-embedded_bos = embedding(bos_id)  # shape: (batch_size, hidden_size)
-
-# print(embedded_bos)  # Output: torch.Size([1, 256])
-# print(embedded_bos.shape)  # Output: torch.Size([1, 256])
-
-# def build_vocab(word_count_threshold, unk_requried=False):
-#     sentance_train = open(TXT_DIR+'sents_train_lc_nopunc.txt', 'r').read().splitlines()
-#     sentance_val = open(TXT_DIR+'sents_val_lc_nopunc.txt', 'r').read().splitlines()
-#     sentance_test = open(TXT_DIR+'sents_test_lc_nopunc.txt', 'r').read().splitlines()
-#     all_captions = []
-#     word_counts = {}
-#     for cap in sentance_test+sentance_train+sentance_val:
-#         caption = cap.split('\t')[-1]
-#         caption = '<BOS> ' + caption + ' <EOS>'
-#         all_captions.append(caption)
-#         for word in caption.split(' '):
-#             if word in word_counts:
-#                 word_counts[word] += 1
-#             else:
-#                 word_counts[word] = 1
-#         for word in word_counts:
-#             if word_counts[word] < word_count_threshold:
-#                 word_counts.pop(word)
-#                 unk_requried = True
-#     return word_counts, unk_requried
-
-
-# def word_to_ids(word_counts, unk_requried):
-#     word_to_id = {}
-#     id_to_word = {}
-#     count = 0
-#     if unk_requried:
-#         word_to_id['<UNK>'] = count
-#         id_to_word[count] = '<UNK>'
-#         count += 1
-#         print("<UNK> True")
-#     for word in word_counts:
-#         word_to_id[word] = count
-#         id_to_word[count] = word
-#         count += 1
-#     return word_to_id, id_to_word
-
-# word_counts, unk_required = build_vocab(word_count_threshold=0)
-# word2id, id2word = word_to_ids(word_counts, unk_requried=unk_required)
-
-import torch
-from torch import nn
-
 
 class S2VT(nn.Module):
     def __init__(self, cfg, vocab_size):
@@ -77,6 +18,7 @@ class S2VT(nn.Module):
         self.batch_size = 1
         self.frame_dim = cfg.frame_dim
         self.hidden_size = cfg.hidden_size
+        self.voc_size = vocab_size
         self.n_steps = cfg.length    # This will depend on caption sequence length
     
         self.drop = nn.Dropout(p=cfg.dropout)
@@ -117,7 +59,9 @@ class S2VT(nn.Module):
             # Return Cap_out for loss computation in training
             return cap_out 
     
-        else: 
+        else:
+            probs = torch.zeros((self.n_steps-1, self.voc_size)).cuda()
+
             # padding input of the second layer of LSTM, 40 time steps
             padding = torch.zeros([self.batch_size, self.n_steps, self.hidden_size]).cuda()
             cap_input = torch.cat((padding, vid_out[:, 0:self.n_steps, :]), 2)
@@ -134,6 +78,7 @@ class S2VT(nn.Module):
             cap_out = cap_out.contiguous().view(-1, self.hidden_size)
             cap_out = self.drop(cap_out)
             cap_out = self.linear2(cap_out)
+            probs[0] = cap_out
             cap_out = torch.argmax(cap_out, 1)
       
             # put the generate word index in caption list 
@@ -150,10 +95,11 @@ class S2VT(nn.Module):
                 cap_out = cap_out.contiguous().view(-1, self.hidden_size)
                 cap_out = self.drop(cap_out)
                 cap_out = self.linear2(cap_out)
+                probs[i+1] = cap_out
                 cap_out = torch.argmax(cap_out, 1)
 
                 # get the index of each word in vocabulary
                 caption.append(cap_out)
       
-            return caption
+            return caption, probs
             # size of caption is [79, batch_size]

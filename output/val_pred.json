@@ -1,0 +1,2487 @@
+{
+    "275": {
+        "video_id": "video6968",
+        "pred": "two athlete by by by by  by by by by by by by by by by by questions",
+        "gt": "two ladies laughing by seeing some thing  another lady throw dresses and keep it back by reverse motion "
+    },
+    "381": {
+        "video_id": "video6541",
+        "pred": "a football player is highlighted down a field",
+        "gt": "a football player is sprinting down a field "
+    },
+    "541": {
+        "video_id": "video6568",
+        "pred": "a character has a motorcycle motorcycle on a a narrator",
+        "gt": "a couple has a romantic time on a horse ride "
+    },
+    "1197": {
+        "video_id": "video6548",
+        "pred": "two men are raining a girl",
+        "gt": "two men are encouraging a girl "
+    },
+    "1397": {
+        "video_id": "video6687",
+        "pred": "two men performing a review for a mat",
+        "gt": "two men performing a skit for a panel "
+    },
+    "1471": {
+        "video_id": "video6586",
+        "pred": "a woman with a stroller",
+        "gt": "a woman with a stroller "
+    },
+    "1572": {
+        "video_id": "video6789",
+        "pred": "soldiers japanese showcasing video",
+        "gt": "avengers poster preview video "
+    },
+    "1794": {
+        "video_id": "video6747",
+        "pred": "the jar is from a cartoon cartoon",
+        "gt": "the clipping is from a cartoon programme "
+    },
+    "1907": {
+        "video_id": "video6856",
+        "pred": "a person is playing a video game",
+        "gt": "a person is playing a video game "
+    },
+    "2117": {
+        "video_id": "video6875",
+        "pred": "a woman is presenting a baby carriage",
+        "gt": "a woman is touching a baby carriage "
+    },
+    "2145": {
+        "video_id": "video6580",
+        "pred": "a man laying meat by a video on a video game",
+        "gt": "a man putting flowers by a UNK in a video game "
+    },
+    "2192": {
+        "video_id": "video6837",
+        "pred": "animated scenes from from old new movie villain",
+        "gt": "animated scene from new disney movie with pets "
+    },
+    "2644": {
+        "video_id": "video6611",
+        "pred": "girls are jumping",
+        "gt": "girls are jumping "
+    },
+    "3237": {
+        "video_id": "video6959",
+        "pred": "woman talks to be talks about their products",
+        "gt": "woman talks to friends about bed head products "
+    },
+    "3547": {
+        "video_id": "video6518",
+        "pred": "people talking to each other",
+        "gt": "people talking to each other "
+    },
+    "3623": {
+        "video_id": "video6591",
+        "pred": "a woman is recorded with an woman about about highlighted",
+        "gt": "a woman is peaking with an older woman about documents "
+    },
+    "3865": {
+        "video_id": "video6743",
+        "pred": "a soccer player dunks a goal on an ice goal",
+        "gt": "a soccer player misses a shot on an open goal "
+    },
+    "4210": {
+        "video_id": "video6619",
+        "pred": "children dance dance in the living room",
+        "gt": "children dance around in the living room "
+    },
+    "4300": {
+        "video_id": "video6984",
+        "pred": "a  staircase is using with with enemies",
+        "gt": "a baby squirrel is  snuggling with kittens "
+    },
+    "4355": {
+        "video_id": "video6966",
+        "pred": "how to prepare food elderly",
+        "gt": "how to prepare food rolls "
+    },
+    "4910": {
+        "video_id": "video6957",
+        "pred": "a woman speaks to a hallway in a biker",
+        "gt": "a woman speaks to a toddler in a bathroom "
+    },
+    "5276": {
+        "video_id": "video6684",
+        "pred": "people dancing out in a music video",
+        "gt": "people working out in a music video "
+    },
+    "6282": {
+        "video_id": "video6689",
+        "pred": "a cartoon man anchor with the future",
+        "gt": "a cartoon dog freefalls toward the earth "
+    },
+    "6461": {
+        "video_id": "video6519",
+        "pred": "a cartoon character is jumping from from to life",
+        "gt": "a cartoon character is jumping from flower to flower "
+    },
+    "6606": {
+        "video_id": "video6877",
+        "pred": "a clip from a spongebob cartoon",
+        "gt": "a clip from a spongebob cartoon "
+    },
+    "6971": {
+        "video_id": "video6753",
+        "pred": "an old duck is shown shown in the video to in a computer computer",
+        "gt": "an old sculpture is shown comparing the object in it to a laptop computer "
+    },
+    "7104": {
+        "video_id": "video6665",
+        "pred": "a man explaining about some stirs",
+        "gt": "a man explaining about some incident "
+    },
+    "7568": {
+        "video_id": "video6836",
+        "pred": "a baby with it s s on a s s eyes",
+        "gt": "a cat with it s paw on a baby s head "
+    },
+    "7734": {
+        "video_id": "video6811",
+        "pred": "a young boy dumplings with with a cat",
+        "gt": "a young boy lies down with a cat "
+    },
+    "7945": {
+        "video_id": "video6913",
+        "pred": "a man is running",
+        "gt": "a man is running "
+    },
+    "7971": {
+        "video_id": "video6731",
+        "pred": "a white laying on the cave in in slow",
+        "gt": "a white boat on the thames river in london "
+    },
+    "8001": {
+        "video_id": "video6710",
+        "pred": "a clip showing and and scoring polish",
+        "gt": "a clip showing anime and japanese advertising "
+    },
+    "8049": {
+        "video_id": "video6775",
+        "pred": "a man talks about having cartoon a cartoon show cartoon plays",
+        "gt": "a man talks about cats as a cartoon about cats plays "
+    },
+    "8168": {
+        "video_id": "video6622",
+        "pred": "an advertisement for the sims of of of is shown",
+        "gt": "an ad for the secret life of pets is shown "
+    },
+    "8444": {
+        "video_id": "video6532",
+        "pred": "a boy is jumping on a trampoline",
+        "gt": "a boy is jumping on a trampoline "
+    },
+    "8898": {
+        "video_id": "video7004",
+        "pred": "the boy kicking on the trampoline",
+        "gt": "the boy bounces on the trampoline "
+    },
+    "9492": {
+        "video_id": "video6760",
+        "pred": "minecraft video game play",
+        "gt": "minecraft video game play "
+    },
+    "10365": {
+        "video_id": "video6758",
+        "pred": "a man is showing a boy dish his to to a and with his boy and his and and his his cutting",
+        "gt": "a man is showing a boy how to hold a guitar and has a picture taken with the boy and his father "
+    },
+    "10677": {
+        "video_id": "video6890",
+        "pred": "someone shows some kind s getting from of a vehicle",
+        "gt": "someone shows some spare part by taking from a box "
+    },
+    "10767": {
+        "video_id": "video6638",
+        "pred": "a series of children are hugging cooking cooking show",
+        "gt": "a pair of children are introducing their cooking show "
+    },
+    "11007": {
+        "video_id": "video6688",
+        "pred": "a person records load",
+        "gt": "a person preforms surgery "
+    },
+    "11197": {
+        "video_id": "video6736",
+        "pred": "someone is showing some s s talking about that",
+        "gt": "someone is showing some car s talking about that "
+    },
+    "11558": {
+        "video_id": "video7006",
+        "pred": "a man is dancing on stage",
+        "gt": "a man is dancing on stage "
+    },
+    "11713": {
+        "video_id": "video6876",
+        "pred": "a little boy watching interacting",
+        "gt": "a little boy watching seagulls "
+    },
+    "11781": {
+        "video_id": "video6998",
+        "pred": "a girl answers a boy",
+        "gt": "a girl feeding a boy "
+    },
+    "11852": {
+        "video_id": "video6869",
+        "pred": "a woman holds off her pet to to a man",
+        "gt": "a woman takes off her clothes to seduce a man "
+    },
+    "12526": {
+        "video_id": "video6788",
+        "pred": "a girl opens a meal of file stirs",
+        "gt": "a girl opens a jar of peanut butter "
+    },
+    "12558": {
+        "video_id": "video6693",
+        "pred": "two people playing podium silly",
+        "gt": "two people playing leap frog "
+    },
+    "13289": {
+        "video_id": "video6873",
+        "pred": "bane is asking to his his paper is his a a slowly",
+        "gt": "ash is surprised to see his picachu holding onto a large egg "
+    },
+    "13407": {
+        "video_id": "video6558",
+        "pred": "a person folds a s s cube",
+        "gt": "a person solving a rubic s cube "
+    },
+    "13658": {
+        "video_id": "video6857",
+        "pred": "the very very small small teams",
+        "gt": "the toys had very small pieces "
+    },
+    "13998": {
+        "video_id": "video6538",
+        "pred": "video of a horse and and and its parked",
+        "gt": "video of a horse nodding and licking its lips "
+    },
+    "14137": {
+        "video_id": "video6812",
+        "pred": "musicians are jumping guitars",
+        "gt": "horses are jumping hurdles "
+    },
+    "14270": {
+        "video_id": "video6534",
+        "pred": "a horse running through a lot of slam",
+        "gt": "a horse running through a course of jumps "
+    },
+    "14902": {
+        "video_id": "video6887",
+        "pred": "a group of girls walk with with with playing",
+        "gt": "a group of girls walk along with music playing "
+    },
+    "15033": {
+        "video_id": "video6919",
+        "pred": "man playing the piano and a boy playing the drums",
+        "gt": "man playing the piano and a boy playing the trumpet "
+    },
+    "15992": {
+        "video_id": "video6888",
+        "pred": "a person is looking their their story",
+        "gt": "a person is looking at their clothes "
+    },
+    "16221": {
+        "video_id": "video6989",
+        "pred": "a man driving a motorcycle tutorial",
+        "gt": "a man doing a driving tutorial "
+    },
+    "16263": {
+        "video_id": "video6694",
+        "pred": "a brown reporter is on the voice voice voice",
+        "gt": "a contestant who is on the voice season 2 "
+    },
+    "16718": {
+        "video_id": "video6630",
+        "pred": "this guy is singing cries",
+        "gt": "this guy is singing passionately "
+    },
+    "16750": {
+        "video_id": "video6644",
+        "pred": "a young singer performing performing in front of an audience",
+        "gt": "a young boy performing music in front of an audience "
+    },
+    "17882": {
+        "video_id": "video6729",
+        "pred": "a couple of men men playing while a video game",
+        "gt": "a couple of young men are playing a video game "
+    },
+    "17921": {
+        "video_id": "video6816",
+        "pred": "a pair reads a drink",
+        "gt": "a bartender pours a drink "
+    },
+    "18575": {
+        "video_id": "video6794",
+        "pred": "two clips of the sporting series",
+        "gt": "two clips of failed sporting attempts "
+    },
+    "18639": {
+        "video_id": "video6658",
+        "pred": "people playing basketball in the stadium",
+        "gt": "people playing basketball in the nba "
+    },
+    "19134": {
+        "video_id": "video6573",
+        "pred": "a person playing a video game and commentating",
+        "gt": "a person playing a video game and commentating "
+    },
+    "19164": {
+        "video_id": "video6799",
+        "pred": "a band performs for a large audience",
+        "gt": "a band performs for a large audience "
+    },
+    "19734": {
+        "video_id": "video6976",
+        "pred": "people are singing on a talk show",
+        "gt": "people are singing on a talk show "
+    },
+    "20260": {
+        "video_id": "video6563",
+        "pred": "a band is performing their their song",
+        "gt": "a band is performing their hit song "
+    },
+    "20400": {
+        "video_id": "video6992",
+        "pred": "a band performing on stage for an audience",
+        "gt": "a band performing on stage for an audience "
+    },
+    "20447": {
+        "video_id": "video6954",
+        "pred": "musicians girl in the music musicians",
+        "gt": "cheering crowd in the music fest "
+    },
+    "20579": {
+        "video_id": "video6669",
+        "pred": "a woman sings to a song as as her as on her her",
+        "gt": "a woman sings to a huge crowd as an orchestra plays behind her "
+    },
+    "20632": {
+        "video_id": "video6574",
+        "pred": "a woman sings on stage for a talent",
+        "gt": "a woman sings on stage for a festival "
+    },
+    "21942": {
+        "video_id": "video6936",
+        "pred": "a girl playing gymnastics",
+        "gt": "a girl playing gymnastics "
+    },
+    "22417": {
+        "video_id": "video6988",
+        "pred": "a man is talking to his audience on a sporting set",
+        "gt": "a man is talking to his cat with a fake voice "
+    },
+    "22906": {
+        "video_id": "video6835",
+        "pred": "a cartoon boy saying something at a boy",
+        "gt": "a cartoon girl throws something at a boy "
+    },
+    "23101": {
+        "video_id": "video6804",
+        "pred": "a blonde woman sits and talks about a dish",
+        "gt": "a blonde woman sits and talks about a house "
+    },
+    "23290": {
+        "video_id": "video6527",
+        "pred": "a woman showcased with her hair hair and her hair hair hair hair with her curly",
+        "gt": "a woman messing with her hair then showing  product then messing with her hair again "
+    },
+    "23426": {
+        "video_id": "video6896",
+        "pred": "a person answering various various and and are on the counter",
+        "gt": "a person blends various items and pours them on the counter "
+    },
+    "23588": {
+        "video_id": "video6732",
+        "pred": "a minecraft character discussing another",
+        "gt": "a minecraft character UNK another "
+    },
+    "23645": {
+        "video_id": "video6663",
+        "pred": "a man in a video game a a with a a child",
+        "gt": "a man in a video game in a suit with a child "
+    },
+    "23738": {
+        "video_id": "video6933",
+        "pred": "kids singing and twinkle",
+        "gt": "kids singing and clapping "
+    },
+    "23896": {
+        "video_id": "video6921",
+        "pred": "fighter of a movie clip a young young a young young man man in an kids",
+        "gt": "start of a movie trailer with a young girl and older man living in a trailer "
+    },
+    "23961": {
+        "video_id": "video6746",
+        "pred": "a child prepares review",
+        "gt": "a child buggy review "
+    },
+    "24238": {
+        "video_id": "video6565",
+        "pred": "a man is on a golf then and doing doing",
+        "gt": "a man is on a golf course and doing exercises "
+    },
+    "24256": {
+        "video_id": "video6778",
+        "pred": "the golfer names show",
+        "gt": "the skyscrapper launches fireworks "
+    },
+    "24368": {
+        "video_id": "video6880",
+        "pred": "a man is talking to an audience",
+        "gt": "a man is talking to an audience "
+    },
+    "24992": {
+        "video_id": "video6781",
+        "pred": "cartoon hosting in the show",
+        "gt": "cartoon bird in the show "
+    },
+    "25170": {
+        "video_id": "video6762",
+        "pred": "child on the truck",
+        "gt": "child on the truck "
+    },
+    "25504": {
+        "video_id": "video6540",
+        "pred": "a man in tshirt is being by by a big pours",
+        "gt": "a man in costume is being filmed by a camera crew "
+    },
+    "25546": {
+        "video_id": "video6516",
+        "pred": "a man s large large is going shown and and sand",
+        "gt": "a man s large nose is shown before and after treatment "
+    },
+    "25561": {
+        "video_id": "video6592",
+        "pred": "a clip of a woman holding a horse then the the then",
+        "gt": "a clip of a woman holding a candle then the horse farting "
+    },
+    "25618": {
+        "video_id": "video6853",
+        "pred": "video game played computer computer",
+        "gt": "video game played online computer "
+    },
+    "25736": {
+        "video_id": "video6653",
+        "pred": "two women talking on the camera",
+        "gt": "two women talking on the camera "
+    },
+    "27183": {
+        "video_id": "video6832",
+        "pred": "a man is talking",
+        "gt": "a man is talking "
+    },
+    "27246": {
+        "video_id": "video6967",
+        "pred": "a race race is shown",
+        "gt": "a track race is shown "
+    },
+    "27519": {
+        "video_id": "video6826",
+        "pred": "soldiers between a man man a dance dance",
+        "gt": "soldiers watch a man perform a UNK dance "
+    },
+    "27548": {
+        "video_id": "video6626",
+        "pred": "footage of a slam in different scenes",
+        "gt": "footage of a soldier in different scenes "
+    },
+    "27685": {
+        "video_id": "video6901",
+        "pred": "two indian men having questions events",
+        "gt": "two foreign men making mixed drinks "
+    },
+    "28259": {
+        "video_id": "video6850",
+        "pred": "women stand stand UNK of the as as UNK on",
+        "gt": "women stand above UNK of water as judges watch on "
+    },
+    "28460": {
+        "video_id": "video6986",
+        "pred": "a girl is talking about hillary products",
+        "gt": "a girl is talking about skin products "
+    },
+    "28691": {
+        "video_id": "video6937",
+        "pred": "a woman talks on the phone",
+        "gt": "a woman talks on the phone "
+    },
+    "28966": {
+        "video_id": "video6623",
+        "pred": "a woman is talking about a podium",
+        "gt": "a woman is talking about a purse "
+    },
+    "28985": {
+        "video_id": "video6514",
+        "pred": "a very haired woman holds the the then then then then then down a down down down a path",
+        "gt": "a very talented woman surfer riding the waves and then it goes into a skier riding down a mountain "
+    },
+    "29077": {
+        "video_id": "video6793",
+        "pred": "a music video of a lady gives how about how to to be to to viewer",
+        "gt": "a music video of a young lady singing about how she would like to be cool "
+    },
+    "29370": {
+        "video_id": "video6708",
+        "pred": "people dancing and singing on the beach",
+        "gt": "people dancing and singing on the beach "
+    },
+    "29607": {
+        "video_id": "video6823",
+        "pred": "a woman is using a beef coaster",
+        "gt": "a woman is displaying a colorful purse "
+    },
+    "29645": {
+        "video_id": "video6814",
+        "pred": "a woman falls out into a car",
+        "gt": "a woman goes out into a UNK "
+    },
+    "29957": {
+        "video_id": "video6868",
+        "pred": "the panel of a tv show showing showing the of the show",
+        "gt": "the beginning of a tv show showing the stars of the show "
+    },
+    "30057": {
+        "video_id": "video6754",
+        "pred": "the clip shows a video from a video clip where shows some some some flies",
+        "gt": "the clip shows a video in a golf field where some player doing some exercise "
+    },
+    "30285": {
+        "video_id": "video6911",
+        "pred": "a woman cooking slicing cooking on a cooking show cooking the kitchen",
+        "gt": "a woman cooking chocolate pudding on a cooking show in the kitchen "
+    },
+    "30409": {
+        "video_id": "video6579",
+        "pred": "a woman is talking while three men s at at her",
+        "gt": "a woman is talking while three other women look at her "
+    },
+    "30427": {
+        "video_id": "video6883",
+        "pred": "a person is working",
+        "gt": "a person is working "
+    },
+    "30820": {
+        "video_id": "video6667",
+        "pred": "a guy is wrestling a in a competition",
+        "gt": "a guy is a wrestling in a competition "
+    },
+    "33041": {
+        "video_id": "video6650",
+        "pred": "a group of people trying to a wave",
+        "gt": "a group of people listen to a speach "
+    },
+    "33516": {
+        "video_id": "video6730",
+        "pred": "some guy s are running in a race",
+        "gt": "some guy s are running in a race "
+    },
+    "33582": {
+        "video_id": "video6761",
+        "pred": "a guy awards video video people people people on a train",
+        "gt": "a picture recap and video shows people sightseeing on a mountain "
+    },
+    "33710": {
+        "video_id": "video6670",
+        "pred": "people listen over a basketball in a parking park",
+        "gt": "people hiking over a stream in a national park "
+    },
+    "33744": {
+        "video_id": "video6939",
+        "pred": "a person is playing video game",
+        "gt": "a person is playing video game "
+    },
+    "33998": {
+        "video_id": "video6945",
+        "pred": "video of a man getting interviewed",
+        "gt": "video of a man getting interviewed "
+    },
+    "34097": {
+        "video_id": "video6561",
+        "pred": "someone is cooking noodles in a microwave",
+        "gt": "someone is cooking cumin in a skillet "
+    },
+    "34166": {
+        "video_id": "video6662",
+        "pred": "a person playing a video game",
+        "gt": "a person playing a video game "
+    },
+    "34377": {
+        "video_id": "video6923",
+        "pred": "the police are standing in front of people people are are are them",
+        "gt": "the police are standing in line in front of them crowd are there "
+    },
+    "34622": {
+        "video_id": "video6536",
+        "pred": "football players are running in the ground",
+        "gt": "football players are running in the ground "
+    },
+    "35272": {
+        "video_id": "video6603",
+        "pred": "bill murray is shown on the late night show",
+        "gt": "bill murray is shown on the late night show "
+    },
+    "35475": {
+        "video_id": "video6629",
+        "pred": "a sports sports player is celebrating exercising",
+        "gt": "a sports player running speed is tested "
+    },
+    "35699": {
+        "video_id": "video6627",
+        "pred": "a man is talking about nasa jordan",
+        "gt": "a man is talking about cow urine "
+    },
+    "35705": {
+        "video_id": "video6671",
+        "pred": "a man and women are posing in in of a camera",
+        "gt": "a man and women are acting in front of a camera "
+    },
+    "35736": {
+        "video_id": "video6903",
+        "pred": "woman talking to himself and and a box",
+        "gt": "woman talking to children and moving a box "
+    },
+    "35784": {
+        "video_id": "video6951",
+        "pred": "an asian indian eats kicking on tv",
+        "gt": "an indian comedy special goes on tv "
+    },
+    "35844": {
+        "video_id": "video6841",
+        "pred": "a person is playing a video game",
+        "gt": "a person is playing a video game "
+    },
+    "35947": {
+        "video_id": "video7001",
+        "pred": "a person is explaining something",
+        "gt": "a person is explaining something "
+    },
+    "36319": {
+        "video_id": "video6616",
+        "pred": "a man introduces his computer computer",
+        "gt": "a man wires his computer tower "
+    },
+    "36732": {
+        "video_id": "video6555",
+        "pred": "guys running filmed running on field",
+        "gt": "guys getting hit running on field "
+    },
+    "36899": {
+        "video_id": "video6734",
+        "pred": "a video game is played",
+        "gt": "a video game is played "
+    },
+    "37103": {
+        "video_id": "video6802",
+        "pred": "a lady interviewing three people asking",
+        "gt": "a lady asking three girls questions "
+    },
+    "37384": {
+        "video_id": "video6682",
+        "pred": "a man is playing a video game and and character is in in a bubble",
+        "gt": "a man is playing a video game and his character is digging in a cave "
+    },
+    "37421": {
+        "video_id": "video6668",
+        "pred": "a guy is saying kids at at at about school",
+        "gt": "a guy is asking kids at school questions about technology "
+    },
+    "37703": {
+        "video_id": "video6795",
+        "pred": "a girl is talking about something",
+        "gt": "a girl is talking about something "
+    },
+    "38298": {
+        "video_id": "video6792",
+        "pred": "football players are celebrating on a field",
+        "gt": "football players are cheering on a field "
+    },
+    "38448": {
+        "video_id": "video6963",
+        "pred": "a slideshow of a play play",
+        "gt": "a replay of a football play "
+    },
+    "39007": {
+        "video_id": "video6860",
+        "pred": "a woman is singing about being learned",
+        "gt": "a woman is singing about being cool "
+    },
+    "39083": {
+        "video_id": "video6741",
+        "pred": "a woman is giving a speech at a man about the man man the a man the the the job",
+        "gt": "a woman is giving a speech at columbia university about the death of a young black man and the consequences "
+    },
+    "39180": {
+        "video_id": "video6752",
+        "pred": "a girl is demonstrating a knife",
+        "gt": "a girl is demonstrating a mask "
+    },
+    "39639": {
+        "video_id": "video6577",
+        "pred": "woman singing and playing piano",
+        "gt": "woman singing and playing piano "
+    },
+    "39737": {
+        "video_id": "video6798",
+        "pred": "two people are in a couch and and then the and and singing",
+        "gt": "two people are in a market and sitting on the ground and singing "
+    },
+    "39743": {
+        "video_id": "video6699",
+        "pred": "a girl applies skating on a couch",
+        "gt": "a girl lip syncing on a couch "
+    },
+    "39895": {
+        "video_id": "video6852",
+        "pred": "two couples playing with other on on tv",
+        "gt": "two twins playing with each other on tv "
+    },
+    "40748": {
+        "video_id": "video6750",
+        "pred": "a woman is talking in front of her cellphone",
+        "gt": "a woman is talking in front of her webcam "
+    },
+    "41001": {
+        "video_id": "video6892",
+        "pred": "a movie clip is shown",
+        "gt": "a movie clip is shown "
+    },
+    "41084": {
+        "video_id": "video6953",
+        "pred": "a song on scene on the with with a man with a a with with and black them",
+        "gt": "a song with lyrics on the screen and a still image of a woman with long black hair "
+    },
+    "41215": {
+        "video_id": "video6517",
+        "pred": "there are scenes from a movie",
+        "gt": "there are scenes from a movie "
+    },
+    "41220": {
+        "video_id": "video6696",
+        "pred": "a girl and her phone talking her phone s on bed",
+        "gt": "a girl and her friends talking into her phone s camera "
+    },
+    "41893": {
+        "video_id": "video6673",
+        "pred": "review of an upcoming movie",
+        "gt": "part of an english film "
+    },
+    "41927": {
+        "video_id": "video6958",
+        "pred": "a man giving a speech",
+        "gt": "a man giving a speech "
+    },
+    "42765": {
+        "video_id": "video6925",
+        "pred": "a woman provides a virtual and and and designs",
+        "gt": "a woman details a pillows texture and washing istructions "
+    },
+    "43372": {
+        "video_id": "video6636",
+        "pred": "someone is playing with showcasing",
+        "gt": "someone is playing with cubes "
+    },
+    "43390": {
+        "video_id": "video6938",
+        "pred": "scene from from a video game",
+        "gt": "screen shots from a video game "
+    },
+    "43778": {
+        "video_id": "video6744",
+        "pred": "two young men perform a presentation for a crowd",
+        "gt": "two young men perform a skit for a crowd "
+    },
+    "44092": {
+        "video_id": "video6780",
+        "pred": "a person making a paper airplane",
+        "gt": "a person making a paper airplane "
+    },
+    "44224": {
+        "video_id": "video6770",
+        "pred": "a person on stage talks giving a microphone",
+        "gt": "a person on ted talks giving a speech "
+    },
+    "44253": {
+        "video_id": "video6714",
+        "pred": "giving giving a speech about strength",
+        "gt": "president giving a speech about terrorist "
+    },
+    "44621": {
+        "video_id": "video6602",
+        "pred": "a man is showing how to cook",
+        "gt": "a man is showing how to cook "
+    },
+    "44710": {
+        "video_id": "video6706",
+        "pred": "a person making a bowl bowl",
+        "gt": "a person making a fish bowl "
+    },
+    "45370": {
+        "video_id": "video6649",
+        "pred": "a man talking about computers benefits",
+        "gt": "a man talking about dust mites "
+    },
+    "45435": {
+        "video_id": "video6625",
+        "pred": "someone is playing with enemies",
+        "gt": "someone is playing with cubes "
+    },
+    "45647": {
+        "video_id": "video6657",
+        "pred": "a man is talking about the the the viewers",
+        "gt": "a man is talking about the cd installation process "
+    },
+    "45853": {
+        "video_id": "video6932",
+        "pred": "people talking in the the streets",
+        "gt": "people talking in the city streets "
+    },
+    "45880": {
+        "video_id": "video6567",
+        "pred": "a man has a patient two while two two two on on wall on on a wall",
+        "gt": "a man has a heart attack while two men behind him adjust a picture on a wall "
+    },
+    "45955": {
+        "video_id": "video6805",
+        "pred": "men playing mortal chart button",
+        "gt": "men playing bow & arrow "
+    },
+    "46402": {
+        "video_id": "video6672",
+        "pred": "a man in a kitchen adding how to cook",
+        "gt": "a man in a kitchen teaches how to cook "
+    },
+    "46960": {
+        "video_id": "video6886",
+        "pred": "a man is being interviewed on the street",
+        "gt": "a man is being interviewed on the street "
+    },
+    "47449": {
+        "video_id": "video6861",
+        "pred": "a large host is talking to one of his dancers",
+        "gt": "a music teacher is listening to one of his students "
+    },
+    "47474": {
+        "video_id": "video6740",
+        "pred": "bill murray on a david show",
+        "gt": "bill murray on a comedy show "
+    },
+    "47625": {
+        "video_id": "video6608",
+        "pred": "a man asking people on the street",
+        "gt": "a man interviews people on the street "
+    },
+    "48157": {
+        "video_id": "video6843",
+        "pred": "an old woman talks to more about about smoking",
+        "gt": "an old woman talks to dr phil about love "
+    },
+    "48184": {
+        "video_id": "video6791",
+        "pred": "four women hugging out of of of water",
+        "gt": "four women hop out of tanks of water "
+    },
+    "48496": {
+        "video_id": "video6777",
+        "pred": "the indian couple look at shopping",
+        "gt": "the older women look at computers "
+    },
+    "49376": {
+        "video_id": "video6766",
+        "pred": "young young dance dancing to music in the background",
+        "gt": "three young kids dance to music in the background "
+    },
+    "49672": {
+        "video_id": "video6818",
+        "pred": "game game and game and footage",
+        "gt": "soccer game and footage of that "
+    },
+    "49713": {
+        "video_id": "video6666",
+        "pred": "a woman talks on the late late show",
+        "gt": "a woman talks on the doctor phil show "
+    },
+    "49818": {
+        "video_id": "video6598",
+        "pred": "women discuss discuss these",
+        "gt": "women discuss carry bags "
+    },
+    "50015": {
+        "video_id": "video6987",
+        "pred": "woman is drinking skating",
+        "gt": "woman is modeling jeans "
+    },
+    "50051": {
+        "video_id": "video6829",
+        "pred": "two girls are swimming in a pool",
+        "gt": "two girls are swimming in a pool "
+    },
+    "50531": {
+        "video_id": "video6974",
+        "pred": "two men in a kitchen",
+        "gt": "two men in a kitchen "
+    },
+    "50571": {
+        "video_id": "video6768",
+        "pred": "shaving patrick talks speaks to another another in a large room",
+        "gt": "robert downey jr speaks to another actor in a large room "
+    },
+    "51121": {
+        "video_id": "video6596",
+        "pred": "a man talking about an sims game game game",
+        "gt": "a man talking about an fps game while playing "
+    },
+    "51147": {
+        "video_id": "video6601",
+        "pred": "a woman is talking about the on the beach",
+        "gt": "a woman is talking about living on the streets "
+    },
+    "51363": {
+        "video_id": "video6964",
+        "pred": "a person is mixing some food",
+        "gt": "a person is mixing some food "
+    },
+    "51481": {
+        "video_id": "video6617",
+        "pred": "a woman is sitting down",
+        "gt": "a woman is sitting down "
+    },
+    "51804": {
+        "video_id": "video6549",
+        "pred": "a priest view of water on on a stove",
+        "gt": "a tiny pot of water boils on a stove "
+    },
+    "52415": {
+        "video_id": "video6859",
+        "pred": "lady is doing a knife with treatment",
+        "gt": "lady is doing a trick with dollar "
+    },
+    "52793": {
+        "video_id": "video6560",
+        "pred": "a woman asks her dog some food",
+        "gt": "a woman offers her dog some food "
+    },
+    "53141": {
+        "video_id": "video6742",
+        "pred": "a man is looking at something",
+        "gt": "a man is looking at something "
+    },
+    "53481": {
+        "video_id": "video6531",
+        "pred": "a man and woman are talking something something in channel",
+        "gt": "a man and woman are talking about something in channel "
+    },
+    "53812": {
+        "video_id": "video6838",
+        "pred": "a woman pushes UNK from from her face",
+        "gt": "a woman removes UNK tape from her face "
+    },
+    "54200": {
+        "video_id": "video6628",
+        "pred": "a lady shows off her baby baby features",
+        "gt": "a lady shows off her baby carriage features "
+    },
+    "54252": {
+        "video_id": "video6782",
+        "pred": "a woman sings at an older haired",
+        "gt": "a woman sings at an outdoor festival "
+    },
+    "54348": {
+        "video_id": "video6681",
+        "pred": "characters characters put to characters characters characters characters",
+        "gt": "lego characters painted to look like movie characters "
+    },
+    "54371": {
+        "video_id": "video6995",
+        "pred": "footage of a lego character is shown",
+        "gt": "photos of a lego soldier is shown "
+    },
+    "54529": {
+        "video_id": "video6924",
+        "pred": "bill murray and david are are recording letterman",
+        "gt": "bill murray and david letterman are longtime friends "
+    },
+    "55410": {
+        "video_id": "video6806",
+        "pred": "a person playing a video game a a meet",
+        "gt": "a person playing a video game riding a motocycle "
+    },
+    "56438": {
+        "video_id": "video6779",
+        "pred": "this is a video that of a a that person",
+        "gt": "this is a funny video of a guy smashing food "
+    },
+    "56799": {
+        "video_id": "video6844",
+        "pred": "a sports video is shown",
+        "gt": "a sports video is shown "
+    },
+    "56985": {
+        "video_id": "video6546",
+        "pred": "a man using the phone holds his has to his his in in a his stirs",
+        "gt": "a man using the hands free voice commands in his car to make a phone call "
+    },
+    "57830": {
+        "video_id": "video6858",
+        "pred": "cartoon play for kids",
+        "gt": "cartoon play for kids "
+    },
+    "58183": {
+        "video_id": "video6922",
+        "pred": "a man driving a car car",
+        "gt": "a man driving a race car "
+    },
+    "58200": {
+        "video_id": "video6848",
+        "pred": "a man explaining about a car",
+        "gt": "a man explaining about a car "
+    },
+    "58331": {
+        "video_id": "video6845",
+        "pred": "a person plays paper paper",
+        "gt": "a person plays using paper "
+    },
+    "58387": {
+        "video_id": "video7009",
+        "pred": "a man applies up a woman s mirror",
+        "gt": "a man pulls up a woman s skirt "
+    },
+    "58505": {
+        "video_id": "video6677",
+        "pred": "a person is demonstrating a computer game",
+        "gt": "a person is demonstrating a computer game "
+    },
+    "58763": {
+        "video_id": "video6525",
+        "pred": "a man is talking about social problem",
+        "gt": "a man is talking about space radiation "
+    },
+    "59067": {
+        "video_id": "video6660",
+        "pred": "a woman asking a man who he is he",
+        "gt": "a woman asks a man why he is lying "
+    },
+    "59147": {
+        "video_id": "video6899",
+        "pred": "a woman and woman at at each other and other other and other other other",
+        "gt": "a woman and man stare at each other and walk over to each other slowly "
+    },
+    "59385": {
+        "video_id": "video7003",
+        "pred": "a man is talking",
+        "gt": "a man is talking "
+    },
+    "59655": {
+        "video_id": "video6582",
+        "pred": "man mixes herself in his kitchen",
+        "gt": "man mixes ingredients in his kitchen "
+    },
+    "60265": {
+        "video_id": "video6783",
+        "pred": "a man shows the inside of of a truck of red truck",
+        "gt": "a man shows the fuel door of a red gmc pickup truck "
+    },
+    "60311": {
+        "video_id": "video6808",
+        "pred": "a person is cooking something",
+        "gt": "a person is cooking something "
+    },
+    "60511": {
+        "video_id": "video6727",
+        "pred": "two men discuss a man s s experiment",
+        "gt": "two men discuss a man s working studio "
+    },
+    "60889": {
+        "video_id": "video6571",
+        "pred": "a sports anchor talks about athletes",
+        "gt": "a sports anchor talks about athletes "
+    },
+    "61025": {
+        "video_id": "video6996",
+        "pred": "a man is repairing out an different engine",
+        "gt": "a man is cleaning out an engine part "
+    },
+    "61050": {
+        "video_id": "video6928",
+        "pred": "a woman is talking about the news and news",
+        "gt": "a woman is talking about the government and news "
+    },
+    "61277": {
+        "video_id": "video6718",
+        "pred": "the video game game characters characters",
+        "gt": "the video game featured UNK characters "
+    },
+    "62056": {
+        "video_id": "video6640",
+        "pred": "the news is about a few back",
+        "gt": "the story is about a real cat "
+    },
+    "62235": {
+        "video_id": "video6787",
+        "pred": "a person is making food",
+        "gt": "a person is making food "
+    },
+    "62304": {
+        "video_id": "video6674",
+        "pred": "a chef is giving instructions in the kitchen",
+        "gt": "a chef is giving instructions in the kitchen "
+    },
+    "62484": {
+        "video_id": "video6745",
+        "pred": "a chef stirs some up up in a pan",
+        "gt": "a chef stirs some meat up in a pan "
+    },
+    "62557": {
+        "video_id": "video6720",
+        "pred": "a man makes food",
+        "gt": "a man makes food "
+    },
+    "63279": {
+        "video_id": "video6993",
+        "pred": "a purple minecraft character character another character",
+        "gt": "a giant minecraft character attacks another character "
+    },
+    "63410": {
+        "video_id": "video6944",
+        "pred": "animated tables are holding and and a fall",
+        "gt": "animated ducks are holding shovels and a pickaxe "
+    },
+    "63595": {
+        "video_id": "video6825",
+        "pred": "freddy carpenter doing a fatality",
+        "gt": "freddy kreugar doing a fatality "
+    },
+    "64041": {
+        "video_id": "video6651",
+        "pred": "a baby character is jumping around",
+        "gt": "a green character is jumping around "
+    },
+    "64224": {
+        "video_id": "video6863",
+        "pred": "a UNK japanese UNK UNK a has full of oil",
+        "gt": "a talking pig UNK has a wheelbarrow full of potatoes "
+    },
+    "65533": {
+        "video_id": "video6910",
+        "pred": "people watch as their out out of a building in in the the sky",
+        "gt": "people watch as fireworks stream out of a tall building in the night sky "
+    },
+    "66116": {
+        "video_id": "video6725",
+        "pred": "several people looking at table and playing and them",
+        "gt": "several people looking at dogs and playing with them "
+    },
+    "66230": {
+        "video_id": "video6997",
+        "pred": "a girl is slicing two s white white sugar",
+        "gt": "a girl is tying two buckets together using rope "
+    },
+    "66629": {
+        "video_id": "video6834",
+        "pred": "a woman talks about her candy",
+        "gt": "a woman talks about her drawing "
+    },
+    "66844": {
+        "video_id": "video6864",
+        "pred": "a man and woman are talking at at wedding",
+        "gt": "a man and woman are talking outside at night "
+    },
+    "66964": {
+        "video_id": "video6776",
+        "pred": "a man and a woman talking to each other",
+        "gt": "a man and a woman talking to each other "
+    },
+    "67151": {
+        "video_id": "video6600",
+        "pred": "a women taking skating singing singing",
+        "gt": "a women taking bath & singing "
+    },
+    "67296": {
+        "video_id": "video6556",
+        "pred": "soldiers competing in benefits",
+        "gt": "soldiers engaged in training "
+    },
+    "68406": {
+        "video_id": "video6999",
+        "pred": "a person is making noodles",
+        "gt": "a person is making art "
+    },
+    "68604": {
+        "video_id": "video6891",
+        "pred": "a man demonstrating how to cook",
+        "gt": "a man demonstrating how to cook "
+    },
+    "68635": {
+        "video_id": "video6557",
+        "pred": "man makes carpenter in oven",
+        "gt": "man makes soup in pot "
+    },
+    "68777": {
+        "video_id": "video6597",
+        "pred": "girl talking to her home package",
+        "gt": "girl talking to her fans online "
+    },
+    "69233": {
+        "video_id": "video6543",
+        "pred": "barack kids are fighting",
+        "gt": "poor kids are fighting "
+    },
+    "69575": {
+        "video_id": "video6700",
+        "pred": "a person is talking about some pictures",
+        "gt": "a person is talking about some pictures "
+    },
+    "70475": {
+        "video_id": "video6912",
+        "pred": "man talking about new car",
+        "gt": "man talking about new car "
+    },
+    "70538": {
+        "video_id": "video6764",
+        "pred": "this is a video of a a a a a a hole",
+        "gt": "this is a video of a jeep review in a rocky terrain "
+    },
+    "70642": {
+        "video_id": "video6695",
+        "pred": "a man drive a car",
+        "gt": "a man drive a car "
+    },
+    "70695": {
+        "video_id": "video6530",
+        "pred": "someone driving a video video game",
+        "gt": "someone playing a driving video game "
+    },
+    "71631": {
+        "video_id": "video6978",
+        "pred": "it is different of of nature fish",
+        "gt": "it is different type of jelly fish "
+    },
+    "71992": {
+        "video_id": "video6931",
+        "pred": "there is a role a demonstrates",
+        "gt": "there is a demoliton derby happening "
+    },
+    "72482": {
+        "video_id": "video6960",
+        "pred": "a group of men are racing around a track",
+        "gt": "a group of men are racing around a track "
+    },
+    "72874": {
+        "video_id": "video6774",
+        "pred": "man explaining about how to prepare a certain eat",
+        "gt": "man explaining about how to eat a special dish "
+    },
+    "72967": {
+        "video_id": "video6554",
+        "pred": "a man rides on a motorcycle while and a a while while are are a a a a a a a driving",
+        "gt": "a man rides on a motorcycle and shoots towards a gate when a target appears while men are being hit by shots "
+    },
+    "73081": {
+        "video_id": "video6906",
+        "pred": "a girl throws a wrestling competition",
+        "gt": "a girl wins a race competition "
+    },
+    "73269": {
+        "video_id": "video6639",
+        "pred": "people are watching a movie in a factory",
+        "gt": "people are watching a movie in a theatre "
+    },
+    "73364": {
+        "video_id": "video6606",
+        "pred": "a woman cooking food",
+        "gt": "a woman cooking food "
+    },
+    "73470": {
+        "video_id": "video6767",
+        "pred": "two girls talking to each other about competition",
+        "gt": "two girls talking to each other about games "
+    },
+    "74430": {
+        "video_id": "video6907",
+        "pred": "narrow news news news  news a female if and and the and and from the jar",
+        "gt": "abc news covering david letterman as a pop culture icon and includes a reference from the simpsons "
+    },
+    "74902": {
+        "video_id": "video6659",
+        "pred": "a character involving for another",
+        "gt": "a character hunting for love "
+    },
+    "76060": {
+        "video_id": "video6790",
+        "pred": "a cartoon robots is walking in the ground",
+        "gt": "a cartoon dinosaur is walking in the ground "
+    },
+    "76567": {
+        "video_id": "video6724",
+        "pred": "cartoon show for childrens",
+        "gt": "cartoon show for childrens "
+    },
+    "76607": {
+        "video_id": "video6822",
+        "pred": "footage of several cars cars and and in a town",
+        "gt": "footage of several cars racing and parked in a garage "
+    },
+    "76661": {
+        "video_id": "video6595",
+        "pred": "a description of a itunes",
+        "gt": "a closeup of a speedometer "
+    },
+    "77261": {
+        "video_id": "video6624",
+        "pred": "a guy talking about a car",
+        "gt": "a guy talking about a car "
+    },
+    "77685": {
+        "video_id": "video6550",
+        "pred": "a man driving a car around a track",
+        "gt": "a man driving a car around a track "
+    },
+    "78387": {
+        "video_id": "video6881",
+        "pred": "a man telling a boy and and girl girl one the on on white boat",
+        "gt": "a man telling a girl and boy that the red coats are on their way "
+    },
+    "78457": {
+        "video_id": "video6539",
+        "pred": "cartoon highlight of limbo game",
+        "gt": "cartoon spoof of horror game "
+    },
+    "78607": {
+        "video_id": "video6522",
+        "pred": "a screen throws video games is shown on a tv",
+        "gt": "a screen depicting rock star is shown on a tv "
+    },
+    "78904": {
+        "video_id": "video6585",
+        "pred": "a man and woman looking at a wedding",
+        "gt": "a man and woman looking at a laptop "
+    },
+    "78970": {
+        "video_id": "video6711",
+        "pred": "a young girl is asking to talk talk to girl",
+        "gt": "a young girl is asking to talk to another girl "
+    },
+    "78982": {
+        "video_id": "video6882",
+        "pred": "a girl introduces up a UNK on her purse",
+        "gt": "a girl quickly makes a UNK on her smartphone "
+    },
+    "79033": {
+        "video_id": "video6889",
+        "pred": "the people are using activities",
+        "gt": "the people are using laptop "
+    },
+    "79147": {
+        "video_id": "video6676",
+        "pred": "a trailer for a movie",
+        "gt": "a preview for a movie "
+    },
+    "79182": {
+        "video_id": "video6866",
+        "pred": "a man is riding a horse and horse an animal",
+        "gt": "a man is riding a horse and catching an animal "
+    },
+    "79512": {
+        "video_id": "video6971",
+        "pred": "person plays pokemon and pokemon like and like a pokemon pokemon",
+        "gt": "person plays pokemon and has their pokemon fight a wild pokemon "
+    },
+    "79780": {
+        "video_id": "video6632",
+        "pred": "a couple of soccer playing soccer soccer",
+        "gt": "a couple of soccer teams playing soccer "
+    },
+    "79926": {
+        "video_id": "video6771",
+        "pred": "a man sits around with a black creature",
+        "gt": "a man moving around with a black bow "
+    },
+    "80333": {
+        "video_id": "video6593",
+        "pred": "hillary clinton speaking to an about about her recent",
+        "gt": "hillary clinton speaking to an audience about her candidacy "
+    },
+    "80383": {
+        "video_id": "video6914",
+        "pred": "a man is talking about the did",
+        "gt": "a man is talking about the simpsons "
+    },
+    "80684": {
+        "video_id": "video6947",
+        "pred": "a crowd is sharing",
+        "gt": "a crowd is rowdy "
+    },
+    "80799": {
+        "video_id": "video6965",
+        "pred": "the crowd of people around around the hoop",
+        "gt": "the crowd of people pass around the coffin "
+    },
+    "80895": {
+        "video_id": "video6652",
+        "pred": "there is a crowd of people on television",
+        "gt": "there is a crowd of people on television "
+    },
+    "81017": {
+        "video_id": "video6559",
+        "pred": "two people are talking on a couch",
+        "gt": "two people are talking on a couch "
+    },
+    "81061": {
+        "video_id": "video6547",
+        "pred": "a man cooking dumplings",
+        "gt": "a man cooking cheetos "
+    },
+    "81249": {
+        "video_id": "video6824",
+        "pred": "a woman reads a silent patient in a microwave",
+        "gt": "a woman plugging a surge protecter in a outlet "
+    },
+    "81371": {
+        "video_id": "video6615",
+        "pred": "a person striped dough",
+        "gt": "a person rolls dough "
+    },
+    "81502": {
+        "video_id": "video6994",
+        "pred": "a man teaches the use to a new surf",
+        "gt": "a man introduces the viewer to a new episode "
+    },
+    "82431": {
+        "video_id": "video6809",
+        "pred": "UNK and and on on",
+        "gt": "UNK and kissing going on "
+    },
+    "82456": {
+        "video_id": "video6962",
+        "pred": "a man and a woman talking at and and talking",
+        "gt": "a man and a woman looking at laptop and talking "
+    },
+    "82757": {
+        "video_id": "video6870",
+        "pred": "two people talking",
+        "gt": "two people talking "
+    },
+    "83299": {
+        "video_id": "video6893",
+        "pred": "two men sit and the other for for for are for cooking",
+        "gt": "two men cook and discuss the food they are cooking for dinner "
+    },
+    "83575": {
+        "video_id": "video6513",
+        "pred": "two young people are sitting on a chair and and and and and and and to the roof",
+        "gt": "three young people are sitting on a couch and lip syncing then go outside to see the sunset "
+    },
+    "83894": {
+        "video_id": "video6815",
+        "pred": "a man talks to his camera while cooking",
+        "gt": "a man talks to his dog while cooking "
+    },
+    "83900": {
+        "video_id": "video6908",
+        "pred": "a celebrity is standing with a gun",
+        "gt": "a doll is standing with a gun "
+    },
+    "83940": {
+        "video_id": "video6709",
+        "pred": "a children was bollywood in the background",
+        "gt": "a door was open in the background "
+    },
+    "84107": {
+        "video_id": "video6878",
+        "pred": "a person is using a computer program",
+        "gt": "a person is using a computer program "
+    },
+    "84198": {
+        "video_id": "video6544",
+        "pred": "some men are performing on stage",
+        "gt": "some men are performing on stage "
+    },
+    "84330": {
+        "video_id": "video6757",
+        "pred": "a woman pours eggs and polish into a pan",
+        "gt": "a woman pours sugar and cocoa into a pan "
+    },
+    "84660": {
+        "video_id": "video6748",
+        "pred": "a female is having a hallway girls in her hand",
+        "gt": "a female is having a coffee cup in her hand "
+    },
+    "84929": {
+        "video_id": "video6635",
+        "pred": "a woman is walking while wearing a wearing virtual",
+        "gt": "a woman is walking while wearing a ball gown "
+    },
+    "85383": {
+        "video_id": "video6991",
+        "pred": "a man is fixing a car",
+        "gt": "a man is fixing a car "
+    },
+    "85441": {
+        "video_id": "video6645",
+        "pred": "a demonstration of a close-up towel",
+        "gt": "a demonstration of a hand-held drone "
+    },
+    "86138": {
+        "video_id": "video6920",
+        "pred": "a man is hosting a live show",
+        "gt": "a man is hosting a live show "
+    },
+    "86452": {
+        "video_id": "video6599",
+        "pred": "japanese and out of their on on following",
+        "gt": "mom and daughter work out issues on dr "
+    },
+    "86462": {
+        "video_id": "video7000",
+        "pred": "a person is holding an online history",
+        "gt": "a person is holding an electronic device "
+    },
+    "86780": {
+        "video_id": "video6566",
+        "pred": "a plaid truck is moving and and taking",
+        "gt": "a dinosaur toy is walking slowly and creepy "
+    },
+    "87077": {
+        "video_id": "video6898",
+        "pred": "the narrator describes how how adding they are on on are are on mother",
+        "gt": "the narrator describes how relatively few planets are able to produce life on earth "
+    },
+    "87530": {
+        "video_id": "video6647",
+        "pred": "a person is using a computer program",
+        "gt": "a person is using a computer program "
+    },
+    "87679": {
+        "video_id": "video6692",
+        "pred": "a man talking to another man",
+        "gt": "a man talking to another man "
+    },
+    "87767": {
+        "video_id": "video6909",
+        "pred": "a woman is doing makeup and showing makeup sugar",
+        "gt": "a woman is doing makeup and showing eye blush "
+    },
+    "87815": {
+        "video_id": "video6728",
+        "pred": "someone is slicing a dragon",
+        "gt": "someone is squeezing a nose "
+    },
+    "88247": {
+        "video_id": "video6765",
+        "pred": "a slideshow of a football play",
+        "gt": "a replay of a football play "
+    },
+    "88471": {
+        "video_id": "video6807",
+        "pred": "a man is putting on makeup",
+        "gt": "a man is putting on makeup "
+    },
+    "88773": {
+        "video_id": "video6643",
+        "pred": "a man talk about stage on on on a big tie",
+        "gt": "a man talk about principles on stage wearing a khaki suit "
+    },
+    "89036": {
+        "video_id": "video6633",
+        "pred": "someone playing minecraft",
+        "gt": "someone playing minecraft "
+    },
+    "89260": {
+        "video_id": "video6535",
+        "pred": "a clip does demo giving a speech",
+        "gt": "a clip showcasing jfk giving a speech "
+    },
+    "89382": {
+        "video_id": "video6739",
+        "pred": "a group of women is performing a song performing",
+        "gt": "a group of women is performing a song live "
+    },
+    "89537": {
+        "video_id": "video6946",
+        "pred": "a man is unboxing diving a lego airplane",
+        "gt": "a man is unconscious on-board a failing airplane "
+    },
+    "89853": {
+        "video_id": "video6930",
+        "pred": "some guys are signing into a song of gun",
+        "gt": "some guys are enter into a gate with gun "
+    },
+    "89883": {
+        "video_id": "video6609",
+        "pred": "a man is on a game show talking to a panel",
+        "gt": "a man is on a game show talking to a familyt "
+    },
+    "89932": {
+        "video_id": "video7005",
+        "pred": " discussion on the tv and and to a white dress",
+        "gt": " phil on his tv show speaking to a few women "
+    },
+    "89948": {
+        "video_id": "video6735",
+        "pred": "a female shows the episode of the late show",
+        "gt": "a tv shows an excerpt of the daily show "
+    },
+    "90228": {
+        "video_id": "video6879",
+        "pred": "spongebob and animals are walking walking",
+        "gt": "spongebob and patrick are walking backwards "
+    },
+    "90313": {
+        "video_id": "video6712",
+        "pred": "players are playing in the ground ground",
+        "gt": "players are playing in the rugby ground "
+    },
+    "90400": {
+        "video_id": "video6701",
+        "pred": "a clip from a wrestling video game",
+        "gt": "a clip from a wrestling video game "
+    },
+    "90664": {
+        "video_id": "video6631",
+        "pred": "a man rolls another another with a gun",
+        "gt": "a man poking another man with a snake "
+    },
+    "90712": {
+        "video_id": "video6685",
+        "pred": "a person folds some food oil in a frying pan",
+        "gt": "a person stirs some food up in a frying pan "
+    },
+    "91021": {
+        "video_id": "video6902",
+        "pred": "a group of guys are doing a dance",
+        "gt": "a group of guys are doing a dance "
+    },
+    "91055": {
+        "video_id": "video6934",
+        "pred": "news about serious being on hillary",
+        "gt": "news about banker bashing on msnbc "
+    },
+    "91206": {
+        "video_id": "video6655",
+        "pred": "soldiers standing in a dirt",
+        "gt": "athletes standing in a line "
+    },
+    "91352": {
+        "video_id": "video6551",
+        "pred": "people competing a performance",
+        "gt": "people judge a performance "
+    },
+    "91425": {
+        "video_id": "video6656",
+        "pred": "a carpenter throws a guys accident",
+        "gt": "a quarterback throws a long pass "
+    },
+    "91833": {
+        "video_id": "video6678",
+        "pred": "these are surrounded by their in in a swimming store",
+        "gt": "pets are adored by their owners in a pet store "
+    },
+    "91952": {
+        "video_id": "video6607",
+        "pred": "music video pictures of people down",
+        "gt": "funny video s of people falling "
+    },
+    "92065": {
+        "video_id": "video6833",
+        "pred": "different clips clips of clips flash on playing playing playing playing music music music playing music plays",
+        "gt": "different sports clips of men playing basketball and football are playing back to back while music plays "
+    },
+    "92817": {
+        "video_id": "video6755",
+        "pred": "a dog is running in army",
+        "gt": "a dog is running in aield "
+    },
+    "92879": {
+        "video_id": "video6737",
+        "pred": "a robot is driving around in an animation",
+        "gt": "a robot is driving around in an animation "
+    },
+    "92960": {
+        "video_id": "video6589",
+        "pred": "a computer screen that is UNK and UNK",
+        "gt": "a computer screen that is blurry and UNK "
+    },
+    "93107": {
+        "video_id": "video6897",
+        "pred": "a woman is singing",
+        "gt": "a woman is singing "
+    },
+    "93523": {
+        "video_id": "video6675",
+        "pred": "a hockey player is showing the streets of his his system",
+        "gt": "a hockey player is juggling the puck with his hockey stick "
+    },
+    "93677": {
+        "video_id": "video6679",
+        "pred": "a man discusses a computer program",
+        "gt": "a man discusses a computer program "
+    },
+    "93936": {
+        "video_id": "video6590",
+        "pred": "scene throwing across the game",
+        "gt": "scene after winning the game "
+    },
+    "94003": {
+        "video_id": "video6610",
+        "pred": "a news story about a news who about to a to be wear",
+        "gt": "a news short about a terrorist who used to be a cab driver "
+    },
+    "94111": {
+        "video_id": "video6797",
+        "pred": "a person is talking to a group of soccer team",
+        "gt": "a person is talking to a group of soccer player "
+    },
+    "94227": {
+        "video_id": "video6722",
+        "pred": "a person is driving a vehicle on the track",
+        "gt": "a person is driving a vehicle on the track "
+    },
+    "94438": {
+        "video_id": "video6830",
+        "pred": "rapper these on the television family",
+        "gt": "steve harvey on the family feud "
+    },
+    "94748": {
+        "video_id": "video6707",
+        "pred": "a man shows off a new car car talks about the engine",
+        "gt": "a man shows off a new car and talks about the features "
+    },
+    "94847": {
+        "video_id": "video7007",
+        "pred": "a woman is talking to another woman",
+        "gt": "a woman is talking to another woman "
+    },
+    "94977": {
+        "video_id": "video6916",
+        "pred": "soccer run jumps around a track",
+        "gt": "track stars run around a track "
+    },
+    "95977": {
+        "video_id": "video6847",
+        "pred": "the wrestling match is being being",
+        "gt": "the war action is being sung "
+    },
+    "96061": {
+        "video_id": "video6521",
+        "pred": "a film show on the show",
+        "gt": "a funny man on the show "
+    },
+    "96491": {
+        "video_id": "video6717",
+        "pred": " water skating in a kitchen while while while about about",
+        "gt": "green water boils in a pot while someone talks about kryptonite "
+    },
+    "96512": {
+        "video_id": "video6704",
+        "pred": "a kid dressed as a toy is is been a that a a a toy",
+        "gt": "a kid dressed as a superman is entering a paper tunnel and found a toy "
+    },
+    "97325": {
+        "video_id": "video6581",
+        "pred": "a man play the computer and and he is matter",
+        "gt": "a man play the computer game and how is possible "
+    },
+    "98252": {
+        "video_id": "video6605",
+        "pred": "the photographs of a video is being with with with with playing",
+        "gt": "the end of a video is seen with three preview videos playing "
+    },
+    "98273": {
+        "video_id": "video6515",
+        "pred": "a chef blowing up red red in a sauce kitchen kitchen",
+        "gt": "a chef chops up red pepper in a real ice kitchen "
+    },
+    "98491": {
+        "video_id": "video7008",
+        "pred": "a man jumps into a helicopter then then a and and and and a into a a sky",
+        "gt": "a man jumps into a natural pool beneath a waterfall and small boats are sailing on a river "
+    },
+    "98508": {
+        "video_id": "video6981",
+        "pred": "still shouting in green are are in in finger",
+        "gt": "mountains covered in green trees are shrouded in mist "
+    },
+    "98990": {
+        "video_id": "video6583",
+        "pred": "two teams teams play a match in a badminton match",
+        "gt": "two doubles teams play a point in a badminton match "
+    },
+    "99125": {
+        "video_id": "video6749",
+        "pred": "a lady is applying us UNK and and and the forth",
+        "gt": "a lady is applying UNK nail polish and explaining the procedure "
+    },
+    "99166": {
+        "video_id": "video6723",
+        "pred": " of people of of a a which with a a a a a a a a a with a a with with UNK in UNK a blue purple",
+        "gt": " of charming buildings by a river and a covered market have uneven white edges and are attached to a blue page in a UNK with two rings "
+    },
+    "100519": {
+        "video_id": "video6819",
+        "pred": "two persons are playing a video game of are are from are game from on airport",
+        "gt": "two persons are playing a video game and they are playing from different places through internet "
+    },
+    "101175": {
+        "video_id": "video6849",
+        "pred": "a man is explaining some some in in powder",
+        "gt": "a man is explaining some important UNK in history "
+    },
+    "101499": {
+        "video_id": "video6637",
+        "pred": "a blonde woman is talking on the tv news",
+        "gt": "a blonde woman is talking on the tv news "
+    },
+    "101547": {
+        "video_id": "video6618",
+        "pred": "the man and woman sit in the the and and and them",
+        "gt": "the man and woman stand in the elevator and then get shot "
+    },
+    "101565": {
+        "video_id": "video6862",
+        "pred": "a clip of two people people UNK at by a UNK by UNK",
+        "gt": "a clip of two people dying together followed by a clip from UNK "
+    },
+    "101658": {
+        "video_id": "video6926",
+        "pred": "a man with a beard is is inside a car",
+        "gt": "a man with a leather jacket is inside a car "
+    },
+    "102657": {
+        "video_id": "video6831",
+        "pred": "person is presenting something the the the is is the food",
+        "gt": "person is presenting how the small mouse is eating the food "
+    },
+    "103428": {
+        "video_id": "video6975",
+        "pred": "a woman is answering her arms to to the man",
+        "gt": "a woman is exposing her private parts to the man "
+    },
+    "103535": {
+        "video_id": "video6716",
+        "pred": " game where a red where where are being down the on the are are are other are are other cars",
+        "gt": "computer game where a red vw bud is being driven down the road  there are cg pedestrians and other cars "
+    },
+    "103603": {
+        "video_id": "video6917",
+        "pred": "baby baby made like from from different from and characters",
+        "gt": "song that features dances from different movies old and new "
+    },
+    "104114": {
+        "video_id": "video6846",
+        "pred": "these spears singing her her while and while and a song while are are dancing",
+        "gt": "ariana grande singing her song problem while she and a group of dancers are dancing "
+    },
+    "104828": {
+        "video_id": "video6796",
+        "pred": "many people are enjoying his in a car car case",
+        "gt": "many people are working UNK in a car manufacturing facility "
+    },
+    "105049": {
+        "video_id": "video6763",
+        "pred": "a man in a black shirt talking to two person in a white and and a at a table",
+        "gt": "a man in a black shirt talking to another man in a red and white jacket at a table "
+    },
+    "105066": {
+        "video_id": "video6915",
+        "pred": "a man in a suit walks a out of a a a a a to a a to a hat",
+        "gt": "a man in a suit walks out of a building and starts talking to a police officer wearing a hat "
+    },
+    "105197": {
+        "video_id": "video6759",
+        "pred": "a woman black a black cooking cooking in in a cooking cooking a in in in in which in and in UNK and in a in and frying",
+        "gt": "a woman conducts a cooking tutorial in which she drains noodles toss with salt and sesame oil and then fry noodles in a large pan over high heat "
+    },
+    "105215": {
+        "video_id": "video6990",
+        "pred": "a girl bowl  mixing mixing inside inside inside prepare to to to to to eat on screen",
+        "gt": "a girl bowl  spoon mixing dish inside kitchen to prepare to serve to eat displaying on screen "
+    },
+    "106258": {
+        "video_id": "video6686",
+        "pred": "blonde in brown shirt the the front in of audience audience",
+        "gt": "blonde in shirt addressing the reporters in front of live audience "
+    },
+    "106480": {
+        "video_id": "video6654",
+        "pred": "someone drives a car into a car car car car car car a a seat",
+        "gt": "someone drives a car down a road and witnesses another car crashing into a bus "
+    },
+    "106528": {
+        "video_id": "video6594",
+        "pred": "a young voice is talking and a UNK is is UNK",
+        "gt": "a man voice is talking and a ice land is UNK "
+    },
+    "106559": {
+        "video_id": "video6983",
+        "pred": "some people are engaged in a snow water forest",
+        "gt": "some people are skiing in a snow covered forest "
+    },
+    "107022": {
+        "video_id": "video6950",
+        "pred": "there is a suit man is talking with a woman",
+        "gt": "there is a police man is talking with a woman "
+    },
+    "107059": {
+        "video_id": "video6719",
+        "pred": "a man and a woman are near near a near",
+        "gt": "a man and a woman are kissing near a plant "
+    },
+    "107238": {
+        "video_id": "video6905",
+        "pred": "a man in black shirt some some is is some thing",
+        "gt": "a man in black pants and shirt is reviewing some information "
+    },
+    "107287": {
+        "video_id": "video6564",
+        "pred": "a lady wearing black color dress is talking",
+        "gt": "a lady wearing black color dress is talking "
+    },
+    "107327": {
+        "video_id": "video6828",
+        "pred": "a lady wears glasses is to the the and creating",
+        "gt": "a lady explain how is put the makeup and cosmetics "
+    },
+    "107552": {
+        "video_id": "video6570",
+        "pred": "an elderly UNK UNK and a UNK UNK UNK and nail",
+        "gt": "an active UNK eating and a UNK tired sleeping grey bunny "
+    },
+    "107561": {
+        "video_id": "video6703",
+        "pred": "a lady is showing her which which UNK UNK and is UNK UNK",
+        "gt": "a lady is showing her pet feeding diet which is healthy and UNK "
+    },
+    "107669": {
+        "video_id": "video6575",
+        "pred": "people are wearing delicious his with with with his sport",
+        "gt": "people are wearing lab coats working with various lab equipment "
+    },
+    "107962": {
+        "video_id": "video6578",
+        "pred": "there is a women explain with a computer",
+        "gt": "there is a women testing with a computer "
+    },
+    "107989": {
+        "video_id": "video6851",
+        "pred": "one man talks about the beautiful beautiful which long",
+        "gt": "one man talks about the micro organisms very deeply "
+    },
+    "108066": {
+        "video_id": "video6985",
+        "pred": "a island born is shown then it is is then is to to a basket",
+        "gt": "a tea kettle is whistling it is then brought to another room by a butler "
+    },
+    "108215": {
+        "video_id": "video6935",
+        "pred": "a highlight of series racing standing on on a track in on wooden",
+        "gt": "a university of oregon track athlete standing on a track in her uniform "
+    },
+    "108529": {
+        "video_id": "video6542",
+        "pred": "a woman running tricks with music music in the background",
+        "gt": "a woman running track with motivational music in the background "
+    },
+    "108722": {
+        "video_id": "video6842",
+        "pred": "two news fights one two one one is is a suit and a tie",
+        "gt": "two news anchors where one of them is wearing a suit and red tie "
+    },
+    "108785": {
+        "video_id": "video6904",
+        "pred": "there is a green with some people people",
+        "gt": "there is a street with some running people "
+    },
+    "108940": {
+        "video_id": "video6523",
+        "pred": "a man wearing a virtual sweater his his his his his trampoline",
+        "gt": "a man wearing a hoody dress removes the headset from his head "
+    },
+    "109588": {
+        "video_id": "video6680",
+        "pred": "two tigers are fighting for a song with striped",
+        "gt": "two monkeys are fighting for a plant with leaves "
+    },
+    "109673": {
+        "video_id": "video6526",
+        "pred": "girls are giving followed to the camera while eating stick",
+        "gt": "girls are giving pose to the camera with swim suit "
+    },
+    "110356": {
+        "video_id": "video6698",
+        "pred": "two singer walks sings in front of a large of of people",
+        "gt": "the singer pink sings in front of a big crowd of people "
+    },
+    "110487": {
+        "video_id": "video6572",
+        "pred": "angry UNK s is displayed on on on and and and and and and and black",
+        "gt": "bright UNK information is displayed in thin horizontal panels on screens with black letters and numbers "
+    },
+    "111620": {
+        "video_id": "video6885",
+        "pred": "two men in the shirts then have a metal in a a river",
+        "gt": "two men in colorful hard hats discover a leak in a concrete wall "
+    },
+    "112007": {
+        "video_id": "video6982",
+        "pred": "a view of large large which going the to to to to off curly",
+        "gt": "a set of large tire off road vehicles try to drive on rough terrain "
+    },
+    "112161": {
+        "video_id": "video6533",
+        "pred": "an older man in a black suit is having in in man man black black black suit",
+        "gt": "an older man in a black suit is shaking hands with another man in a black suit "
+    },
+    "112580": {
+        "video_id": "video6969",
+        "pred": "a woman pours chicken and from from a large mouth",
+        "gt": "a woman serves noodles and sauce from a glass case "
+    },
+    "112611": {
+        "video_id": "video6664",
+        "pred": "a man mixes potatoes on an an will to an an onion",
+        "gt": "a man adds toppings on what appears to be an asian salad "
+    },
+    "113496": {
+        "video_id": "video6874",
+        "pred": "juice frame is the table of and are at the and UNK UNK at at the the mat",
+        "gt": "dna origami is the nanoscale folding of dna to create UNK UNK and three-dimensional shapes at the nanoscale "
+    },
+    "113503": {
+        "video_id": "video6900",
+        "pred": "there is someone using a with with with on it",
+        "gt": "there is women using a machine with numbers on it "
+    },
+    "113550": {
+        "video_id": "video6661",
+        "pred": "two guys doing a metal a a to to to in a table",
+        "gt": "two guys watching a chef apply american cheese to UNK in a pan "
+    },
+    "113676": {
+        "video_id": "video6970",
+        "pred": "a person with colour colour coat is talking about something",
+        "gt": "a person with grey colour coat is talking about something "
+    },
+    "113693": {
+        "video_id": "video6980",
+        "pred": "a boy in white    cloth cloth speaking speaking speaking in speaking and    and  displaying displaying on screen",
+        "gt": "a boy in white  color dress  wearing cloth speaking seeing watch in hand and game of walls blasting  displaying on screen "
+    },
+    "113713": {
+        "video_id": "video6948",
+        "pred": "hillary cars moving in an which s to it to to be to be",
+        "gt": "colorful toy cars in an advertisment that makes them appear to be real cars "
+    },
+    "113739": {
+        "video_id": "video6528",
+        "pred": "a man with a suit is front front of a screen",
+        "gt": "a man with a suit is in front of a screen "
+    },
+    "113755": {
+        "video_id": "video6690",
+        "pred": "a video showing a a tour by for the it it on it",
+        "gt": "a video showing a fabric which marked for putting button holes on it "
+    },
+    "113935": {
+        "video_id": "video6927",
+        "pred": "microwave up up the of of a face and and and and middle",
+        "gt": "halloween make up the face of a witch with UNK and hung skin "
+    },
+    "114465": {
+        "video_id": "video6715",
+        "pred": "it is a make on on make make on on a an she a has is has is up is she",
+        "gt": "it is a girl putting on make up at the end she is putting on a lip gloss that looks purple "
+    },
+    "114881": {
+        "video_id": "video6562",
+        "pred": "a boy showing a young girl and and girl up out out of of the pile",
+        "gt": "a cartoon showing a little boy and girl wondering how water comes out of the ski "
+    },
+    "114916": {
+        "video_id": "video6827",
+        "pred": "girl and boy standing standing outside in in in minecraft",
+        "gt": "girl and boy standing outside of house talking in animation "
+    },
+    "115077": {
+        "video_id": "video6726",
+        "pred": "a yellow color car car is moving parked",
+        "gt": "a yellow color sports car is moving ahead "
+    },
+    "115170": {
+        "video_id": "video6956",
+        "pred": "few girls doing an girls and one then then then a a crowd them",
+        "gt": "younger girls accepting an award and then one of them surfing a couple waves "
+    },
+    "115184": {
+        "video_id": "video6895",
+        "pred": "a person on a a bike that in in the ocean",
+        "gt": "a person on a surf board riding waves in the ocean "
+    },
+    "115782": {
+        "video_id": "video6621",
+        "pred": "there is a police man man from a room",
+        "gt": "there is a fat man talking from a room "
+    },
+    "115958": {
+        "video_id": "video7002",
+        "pred": "a guy on a motorcycle is is in the road",
+        "gt": "a guy on a motorcycle is crashing in the road "
+    },
+    "116661": {
+        "video_id": "video6949",
+        "pred": "a person recording their their by a big of their has of of water",
+        "gt": "a person recording their time at a certain location by a body of water "
+    },
+    "116826": {
+        "video_id": "video6773",
+        "pred": "a gray is speaking about a large large with with large green",
+        "gt": "a commentator is speaking about a large red truck with large wheels "
+    },
+    "117784": {
+        "video_id": "video6865",
+        "pred": "a description of UNK UNK showing two different different different different and different different UNK chairs",
+        "gt": "a collage of pictures showing UNK clad women wearing different colored and different types of swimwear "
+    },
+    "117994": {
+        "video_id": "video6702",
+        "pred": "a man speaking while into a microphone in in the and and and the and talking in the background",
+        "gt": "a man in speaking into a microphone on the street with pedestrians and military personel walking in the background "
+    },
+    "118251": {
+        "video_id": "video6894",
+        "pred": "one mouse dogs of children as as as a person they as they they they a be they moves",
+        "gt": "while we think of early man as having a rough life they may have actually had a good life "
+    },
+    "118394": {
+        "video_id": "video6821",
+        "pred": "a lady is showing her that that a video that that she she",
+        "gt": "a lady is showing her friend in a video that she is filming "
+    },
+    "119154": {
+        "video_id": "video6979",
+        "pred": "a women wearing black coat over a tennis ball with with tennis shirts",
+        "gt": "a girl wearing black shorts hits a tennis ball with a tennis racket "
+    },
+    "119172": {
+        "video_id": "video6867",
+        "pred": "the stars player in blue blue blue shirt is playing the motion",
+        "gt": "the shuttle player in blue t - shirt is rounding the court "
+    },
+    "119195": {
+        "video_id": "video6642",
+        "pred": "a red player in a red outfit is getting for for a match",
+        "gt": "a tennis player in a red outfit is getting ready for a match "
+    },
+    "120135": {
+        "video_id": "video6800",
+        "pred": "a white haired white with white and white a white white uses",
+        "gt": "a white plastic box with black handles and a white plastic lid "
+    },
+    "120159": {
+        "video_id": "video6733",
+        "pred": "we sitting sitting by by with with a a vessel",
+        "gt": "hamster change sitting side by side with a plastic bin "
+    },
+    "120555": {
+        "video_id": "video6524",
+        "pred": "an tshirt is kept in the the and and the are are are are it",
+        "gt": "an egg is smashed in the tawa and the rice noodles are added to it "
+    },
+    "120800": {
+        "video_id": "video6641",
+        "pred": "there is a woman is presenting a dish on the table",
+        "gt": "there is a woman is serving a dish on the table "
+    },
+    "121224": {
+        "video_id": "video6713",
+        "pred": "there is a black suit man on on a computer",
+        "gt": "there is a black suit man working on a computer "
+    },
+    "121254": {
+        "video_id": "video6855",
+        "pred": "opens lady with glasses and his and and and and and and talking",
+        "gt": "bald man with glasses and mustache with UNK burns and green sweater talking "
+    },
+    "121816": {
+        "video_id": "video6553",
+        "pred": "a young man riding in a car road down the road road",
+        "gt": "a young man riding in a car goes down the wet road "
+    },
+    "122425": {
+        "video_id": "video6691",
+        "pred": "a woman is cooking in the kitchen with with with with with powder",
+        "gt": "a woman is cooking in the kitchen with garlic olive oil lemon etc "
+    },
+    "122458": {
+        "video_id": "video6820",
+        "pred": "these reviews how to the the of of a cooking",
+        "gt": "brunette presenting how to organize the cooking of a meal "
+    },
+    "122836": {
+        "video_id": "video6785",
+        "pred": "this is doing a review on a a haired",
+        "gt": "com is doing a review on a red volkswagen "
+    },
+    "122967": {
+        "video_id": "video6943",
+        "pred": "the entertainment UNK UNK UNK their UNK for for for smell",
+        "gt": "the youth men is UNK their diffrent angle for photo secssion "
+    },
+    "123173": {
+        "video_id": "video6810",
+        "pred": "a male cuts a new video the the different where the how how how the while while while the the the doing",
+        "gt": "a new form a exercise called the baby push ups where you will kiss the baby while you are doing the workout "
+    },
+    "123276": {
+        "video_id": "video6683",
+        "pred": "the woman in the dress dress dress holding a baby in and and and and a plaid",
+        "gt": "the woman in the pink dress is holding a cute baby in her lap and doing crunches "
+    },
+    "124149": {
+        "video_id": "video6977",
+        "pred": "a big generated speeds on a sunny wall day",
+        "gt": "a forest amd waterfall on a beautiful sunny day "
+    },
+    "124331": {
+        "video_id": "video6751",
+        "pred": "president obama speaks at a at in a night office",
+        "gt": "president obama speaks at a podium in a foreign country "
+    },
+    "124484": {
+        "video_id": "video6587",
+        "pred": "sports players in red and and and and and and forth",
+        "gt": "sports players in red and black uniforms running stretching and practicing "
+    },
+    "124507": {
+        "video_id": "video6784",
+        "pred": "a grey video doing a group are being to group people",
+        "gt": "a motivational video that a group is performing to inspire people "
+    },
+    "124730": {
+        "video_id": "video6604",
+        "pred": "a man in a purple suit giving a speech to a crowd",
+        "gt": "a man in a nice jacket giving a speech to a crowd "
+    },
+    "126162": {
+        "video_id": "video6738",
+        "pred": "a man with also jacket is running from the street",
+        "gt": "a man with cooling glass is smiling from the street "
+    },
+    "126190": {
+        "video_id": "video6620",
+        "pred": "two women women and two different different are are of of take",
+        "gt": "two different women and two different couples are taking pictures of themselves "
+    },
+    "126461": {
+        "video_id": "video6918",
+        "pred": "a man gives his his gymnast on a red with with red the the island",
+        "gt": "a man says gives his confession in a confessional with red fabric on the walls "
+    },
+    "127094": {
+        "video_id": "video6646",
+        "pred": "five dance to her and and walking by by a song were",
+        "gt": "encourages couples to dance and have fun by taking a romantic holiday "
+    },
+    "127474": {
+        "video_id": "video6840",
+        "pred": "a teen screen with the of of a male on the the on on the the the the the on the green",
+        "gt": "a split screen with the map of a hiking trail on the left and pictures of a woman hiking on the right "
+    },
+    "127572": {
+        "video_id": "video6569",
+        "pred": "this video is about a live of the the to contestant",
+        "gt": "this video is about a live commentary of the jungle book "
+    },
+    "128226": {
+        "video_id": "video6786",
+        "pred": "two men discuss the news and and and it and it will",
+        "gt": "two men discuss the new apple iphone and what it might have "
+    },
+    "128289": {
+        "video_id": "video6588",
+        "pred": "a blue man is speaking in the the scene",
+        "gt": "a police man is speaking in the movie scene "
+    },
+    "128657": {
+        "video_id": "video6961",
+        "pred": "a woman talks about the camera at the at at at at at at at",
+        "gt": "a woman talks about the it program at the college she attends and teaches at "
+    },
+    "129391": {
+        "video_id": "video6769",
+        "pred": "a man and a woman UNK UNK UNK UNK they they they they to UNK depicts",
+        "gt": "a man and a woman UNK around and change positions as they prepare to have relations "
+    },
+    "129520": {
+        "video_id": "video6817",
+        "pred": "gordon fallon wears a grey and and how how to on on on latest",
+        "gt": "matt damon wears a space suit and determines how to grow food on mars "
+    },
+    "130761": {
+        "video_id": "video6941",
+        "pred": "there is a man talking about a food food",
+        "gt": "there is a man talking about a taste food "
+    },
+    "130781": {
+        "video_id": "video6520",
+        "pred": "many people stand in home stadium in in the motion",
+        "gt": "many people participating in high jump competition in the stadium "
+    },
+    "130844": {
+        "video_id": "video6813",
+        "pred": "the man wearing the black suit stands the the and and the the the cheese",
+        "gt": "the man wearing the black suit sit in the chair and talks near the globe "
+    },
+    "131226": {
+        "video_id": "video6612",
+        "pred": "a cartoon car standing on the with and and and on down fence",
+        "gt": "a cartoon car standing on the hill and comes down with huge smoke "
+    },
+    "131246": {
+        "video_id": "video6545",
+        "pred": "a male chef adding a chef onions adding in a pot into a pot",
+        "gt": "a male chef adds a liquid before mixing in other ingredients into a pot "
+    },
+    "131607": {
+        "video_id": "video6721",
+        "pred": "a guy singing while a guy is walking down the town",
+        "gt": "a guy singing while a girl is walking down the hallway "
+    },
+    "131689": {
+        "video_id": "video6705",
+        "pred": "many views of different of and and and and are shown and on screen",
+        "gt": "many views of nature including plants humans and dogs are being displayed on screen "
+    },
+    "132299": {
+        "video_id": "video6772",
+        "pred": "children on a beach and a of of of shooting court",
+        "gt": "children on a beach and some footage of a helicopter flying "
+    },
+    "132364": {
+        "video_id": "video6972",
+        "pred": "a man sings as as and a guy and and UNK the in in the the the competition",
+        "gt": "a man sings as he and a friend walk in a UNK and ride bikes in the city "
+    },
+    "132503": {
+        "video_id": "video6803",
+        "pred": "a young woman is discussing how a how who how how is on on how is on on the face",
+        "gt": "a young woman is discussing how a gwen stefani makeup item is packaged and how it looks on the inside "
+    },
+    "133714": {
+        "video_id": "video6839",
+        "pred": "a man is putting his baby on his and a baby and to the baby",
+        "gt": "a man is putting his baby to bed in a crib and the baby cries "
+    },
+    "133750": {
+        "video_id": "video6756",
+        "pred": "man and a boy riding in a white car",
+        "gt": "man and a boy sit in a green car "
+    },
+    "133761": {
+        "video_id": "video6537",
+        "pred": "the person in the UNK that how to to to to to the car",
+        "gt": "two person in the UNK person try to learn how to drive the car "
+    },
+    "133812": {
+        "video_id": "video6613",
+        "pred": "a white cat looking in some some some coffee",
+        "gt": "a white color fish in aquarium eating some worms "
+    },
+    "133842": {
+        "video_id": "video6884",
+        "pred": "a person holds up food in a plate while while that of that it it are it",
+        "gt": "a person holds fish food in a fish tank while goldfish swim over and start eating it "
+    },
+    "134465": {
+        "video_id": "video6955",
+        "pred": "a pitcher is looking and a the is running in the road",
+        "gt": "a amn is looking and a jeep is running in the road "
+    },
+    "134824": {
+        "video_id": "video6872",
+        "pred": "an lion is in a virtual while while the the the the male",
+        "gt": "an is fighter in a bandanna appears while a narration describes the group "
+    },
+    "135312": {
+        "video_id": "video6973",
+        "pred": "a tennis tennis match between two tennis between and and the and the tennis",
+        "gt": "a table tennis match between two chinese players and the winner celebrating the victory "
+    },
+    "135656": {
+        "video_id": "video6648",
+        "pred": "in this this video of of people people girls are walking dress are dress",
+        "gt": "in this above video UNK fashion show models all are walking in cat walk "
+    },
+    "136392": {
+        "video_id": "video6801",
+        "pred": "fallon of a foreign show",
+        "gt": "introduction of a foreign show "
+    },
+    "137453": {
+        "video_id": "video6940",
+        "pred": "a man teaches while playing a video video game",
+        "gt": "a man yells while playing a bad video game "
+    },
+    "137461": {
+        "video_id": "video6952",
+        "pred": "an asian woman in a black black black black to to to to to in in black",
+        "gt": "an anime woman in a black outfit uses a sword to cut glass milk bottles in black "
+    },
+    "137504": {
+        "video_id": "video6942",
+        "pred": "an views of the sports are played in an in in an award",
+        "gt": "the covers of various books are displayed in an advertisement for online books "
+    },
+    "137592": {
+        "video_id": "video6584",
+        "pred": "a woman in a laptop and and and and around the river",
+        "gt": "a woman in a uniform and tattoo face looks around the stadium "
+    },
+    "137877": {
+        "video_id": "video6614",
+        "pred": "a young blonde woman stands on a stage and sings",
+        "gt": "a young blonde woman stands on a stage and sings "
+    },
+    "137887": {
+        "video_id": "video6854",
+        "pred": "a woman sings in front of an with with with a UNK with with UNK and with with mixes",
+        "gt": "a woman sings in front of narrow blue glaciers in a UNK covered with little mirrors forming angular patterns "
+    },
+    "138587": {
+        "video_id": "video6697",
+        "pred": "a white player player giving the game and showing then then blue it",
+        "gt": "a white dress player hits the ball and black dress player missed it "
+    },
+    "138602": {
+        "video_id": "video6529",
+        "pred": "there is a woman sitting in front of a table",
+        "gt": "there is a woman sitting in front of a table "
+    },
+    "138750": {
+        "video_id": "video6929",
+        "pred": "hats vine cuts around a track on on motorcycles",
+        "gt": "five jockeys ride around a dirt racetrack on horseback "
+    },
+    "139559": {
+        "video_id": "video6634",
+        "pred": "a guy is talking about a scooter movie",
+        "gt": "a guy is talking about a hulk movie "
+    },
+    "139571": {
+        "video_id": "video6576",
+        "pred": "man in black shirt is presenting some news",
+        "gt": "man in black suit is presenting some news "
+    },
+    "140001": {
+        "video_id": "video6552",
+        "pred": "a man with brown brown and glasses and is looking something",
+        "gt": "a man with brown over coat and spectacles is discussing something "
+    },
+    "140029": {
+        "video_id": "video6871",
+        "pred": "a man speaks in the front of a dark where and a a a and of of of of of electric",
+        "gt": "a man speaks from the back of a dark desk which has an open gray laptop a sculpture of connected silver "
+    }
+}
