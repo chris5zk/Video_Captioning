@@ -53,18 +53,10 @@ Program/
 └─  train.py          # train  model
 ```
 
-Environment
+Project Objectives
 ---
-Run `pip install -r requirements.txt` to install usage package.
-```
-Package List
-- PyTorch
-- Numpy
-- tqdm
-- decord
-- matplotlib
-- json
-```
+Video Captioning is an application that takes a given video as input and generates text related to the content of the video to describe the scenes, actions, objects, etc., so that users can better understand the content of the video, and is used to automate annotation, retrieval and search of video data. Our project use VGG16 and S2VT and MSR-VTT dataset to complete the task.
+
 
 Completion Progress: 80%
 ---
@@ -93,6 +85,19 @@ How to run?
 1. Run `eval.py`
 2. `inference.py` will **read the testing set from `./dataset/msrvtt/msrvtt_label_test.json` and corresponding videos instead of `./input` videos now.**
 3. Predict captions will save as `./output/test_pred.json`
+
+Environment
+---
+Run `pip install -r requirements.txt` to install usage package.
+```
+Package List
+- PyTorch
+- Numpy
+- tqdm
+- decord
+- matplotlib
+- json
+```
 
 Acknowledgement
 ---
